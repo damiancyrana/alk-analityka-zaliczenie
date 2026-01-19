@@ -1,0 +1,63 @@
+// ============================================
+// MIARY PODSTAWOWE
+// ============================================
+// Dodaj każdą miarę osobno:
+// 1. Zaznacz tabelę _Miary
+// 2. Modelowanie → Nowa miara
+// 3. Wklej formułę
+// ============================================
+
+
+// --- SPRZEDAŻ ---
+Sprzedaż =
+SUM(FactInternetSales[Wartość sprzedaży])
+
+
+// --- KOSZT ---
+Koszt =
+SUM(FactInternetSales[Koszt])
+
+
+// --- MARŻA (wartość) ---
+Marża =
+[Sprzedaż] - [Koszt]
+
+
+// --- MARŻA % ---
+Marża % =
+DIVIDE([Marża], [Sprzedaż], 0)
+
+
+// --- ILOŚĆ SPRZEDANA ---
+Ilość Sprzedana =
+SUM(FactInternetSales[Ilość])
+
+
+// --- LICZBA TRANSAKCJI ---
+Liczba Transakcji =
+COUNTROWS(FactInternetSales)
+
+
+// --- ŚREDNIA WARTOŚĆ TRANSAKCJI ---
+Średnia Wartość Transakcji =
+DIVIDE([Sprzedaż], [Liczba Transakcji], 0)
+
+
+// --- LICZBA KLIENTÓW ---
+Liczba Klientów =
+DISTINCTCOUNT(FactInternetSales[Klucz klienta])
+
+
+// --- SPRZEDAŻ NA KLIENTA ---
+Sprzedaż na Klienta =
+DIVIDE([Sprzedaż], [Liczba Klientów], 0)
+
+
+// --- LICZBA PRODUKTÓW ---
+Liczba Produktów =
+DISTINCTCOUNT(FactInternetSales[Klucz produktu])
+
+
+// --- ŚREDNIA CENA ---
+Średnia Cena =
+AVERAGE(FactInternetSales[Cena jednostkowa])

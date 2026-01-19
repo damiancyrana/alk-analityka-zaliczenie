@@ -1,0 +1,74 @@
+// ============================================
+// MIARY RANKINGOWE
+// ============================================
+// Do tworzenia TOP N list i rankingów
+// ============================================
+
+
+// --- RANKING PRODUKTÓW ---
+Ranking Produktów =
+RANKX(
+    ALL(DimProdukt[Nazwa produktu]),
+    [Sprzedaż],
+    ,
+    DESC,
+    Dense
+)
+
+
+// --- FILTR TOP N (do użycia w filtrze wizualnym) ---
+Top N Filtr =
+VAR RankingAktualny = [Ranking Produktów]
+RETURN
+IF(RankingAktualny <= 10, 1, 0)
+
+
+// --- RANKING KLIENTÓW ---
+Ranking Klientów =
+RANKX(
+    ALL(DimKlient[Klucz klienta]),
+    [Sprzedaż],
+    ,
+    DESC,
+    Dense
+)
+
+
+// --- RANKING KATEGORII ---
+Ranking Kategorii =
+RANKX(
+    ALL(DimKategoria[Nazwa Kategorii]),
+    [Sprzedaż],
+    ,
+    DESC,
+    Dense
+)
+
+
+// --- RANKING KRAJÓW ---
+Ranking Krajów =
+RANKX(
+    ALL(DimObszarSprzedazy[Kraj]),
+    [Sprzedaż],
+    ,
+    DESC,
+    Dense
+)
+
+
+// --- UDZIAŁ W SPRZEDAŻY (%) ---
+Udział w Sprzedaży % =
+DIVIDE(
+    [Sprzedaż],
+    CALCULATE([Sprzedaż], ALL(FactInternetSales)),
+    0
+)
+
+
+// --- UDZIAŁ W KATEGORII (%) ---
+Udział w Kategorii % =
+DIVIDE(
+    [Sprzedaż],
+    CALCULATE([Sprzedaż], ALL(DimProdukt), ALL(DimPodkategoria)),
+    0
+)

@@ -1,0 +1,8 @@
+// ============================================
+// TABELA MIAR
+// ============================================
+// Utwórz jako NOWĄ TABELĘ (Modelowanie → Nowa tabela)
+// Ta tabela będzie kontenerem dla wszystkich miar
+// ============================================
+
+_Miary = ROW("Placeholder", BLANK())

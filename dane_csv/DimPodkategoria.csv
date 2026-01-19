@@ -1,0 +1,38 @@
+Klucz podkategorii,Nazwa podkategorii,Opis,Klucz kategorii
+1.0,Rowery górskie,VTT,1.0
+2.0,Rowery szosowe ,Vélo de route,1.0
+3.0,Rowery turystyczne ,Vélo de randonnée,1.0
+4.0,Kierownice ,Barre d'appui,2.0
+5.0,Wsporniki dolne ,Axe de pédalier,2.0
+6.0,Hamulce ,Freins,2.0
+7.0,Łańcuchy,Chaîne,2.0
+8.0,Mechanizmy korbowe ,Pédalier,2.0
+9.0,Przerzutki ,Dérailleur,2.0
+10.0,Widelce ,Fourche,2.0
+11.0,Słuchawki ,Jeu de direction,2.0
+12.0,Ramy górskie ,Cadre de VTT,2.0
+13.0,Pedały,Pédale,2.0
+14.0,Ramy szosowe ,Cadre de vélo de route,2.0
+15.0,Siodełka,Selle,2.0
+16.0,Ramy turystyczne ,Cadre de vélo de randonnée,2.0
+17.0,Koła,Roue,2.0
+18.0,Spodenki na szelkach ,Cuissards avec bretelles,3.0
+19.0,Czapki,Casquette,3.0
+20.0,Rękawiczki,Gants,3.0
+21.0,Koszulki ,Maillot,3.0
+22.0,Spodenki,Cuissards,3.0
+23.0,Skarpety,Chaussettes,3.0
+24.0,Rajstopy,Collants,3.0
+25.0,Kamizelki ,Veste,3.0
+26.0,Bagażniki rowerowe ,Porte-vélo,4.0
+27.0,Stojaki rowerowe,Range-vélo,4.0
+28.0,Bidony,Bidon et porte-bidon,4.0
+29.0,Środki czyszczące ,Nettoyant,4.0
+30.0,Błotniki ,Garde-boue,4.0
+31.0,Hełmy ,Casque,4.0
+32.0,Pakiety nawadniające ,Sac d'hydratation,4.0
+33.0,Światła,Éclairage,4.0
+34.0,Blokady,Antivol,4.0
+35.0,Sakwy ,Sacoche,4.0
+36.0,Pompki,Pompe,4.0
+37.0,Opony i dętki ,Pneu et chambre a air,4.0

@@ -1,0 +1,71 @@
+// ============================================
+// MIARY TIME INTELLIGENCE
+// ============================================
+// UWAGA: Te miary wymagają tabeli kalendarza (DimData)
+// Najpierw utwórz tabelę z pliku 05_tabela_kalendarza.dax
+// ============================================
+
+
+// --- SPRZEDAŻ POPRZEDNI ROK ---
+Sprzedaż Poprzedni Rok =
+CALCULATE(
+    [Sprzedaż],
+    SAMEPERIODLASTYEAR(DimData[Date])
+)
+
+
+// --- DYNAMIKA ROK DO ROKU (wartość) ---
+Dynamika YoY =
+VAR PoprzedniRok = [Sprzedaż Poprzedni Rok]
+RETURN
+DIVIDE([Sprzedaż] - PoprzedniRok, PoprzedniRok, 0)
+
+
+// --- DYNAMIKA ROK DO ROKU (tekst ze znakiem) ---
+Dynamika YoY Tekst =
+VAR Wartosc = [Dynamika YoY]
+RETURN
+IF(
+    ISBLANK(Wartosc) || ISBLANK([Sprzedaż Poprzedni Rok]),
+    "-",
+    IF(Wartosc > 0, "+", "") & FORMAT(Wartosc, "0.0%")
+)
+
+
+// --- SPRZEDAŻ NARASTAJĄCO (YTD) ---
+Sprzedaż YTD =
+CALCULATE(
+    [Sprzedaż],
+    DATESYTD(DimData[Date])
+)
+
+
+// --- SPRZEDAŻ POPRZEDNI MIESIĄC ---
+Sprzedaż Poprzedni Miesiąc =
+CALCULATE(
+    [Sprzedaż],
+    PREVIOUSMONTH(DimData[Date])
+)
+
+
+// --- DYNAMIKA MIESIĄC DO MIESIĄCA ---
+Dynamika MoM =
+VAR PoprzedniMiesiac = [Sprzedaż Poprzedni Miesiąc]
+RETURN
+DIVIDE([Sprzedaż] - PoprzedniMiesiac, PoprzedniMiesiac, 0)
+
+
+// --- SPRZEDAŻ POPRZEDNI KWARTAŁ ---
+Sprzedaż Poprzedni Kwartał =
+CALCULATE(
+    [Sprzedaż],
+    PREVIOUSQUARTER(DimData[Date])
+)
+
+
+// --- ŚREDNIA KROCZĄCA 3 MIESIĄCE ---
+Średnia Krocząca 3M =
+AVERAGEX(
+    DATESINPERIOD(DimData[Date], MAX(DimData[Date]), -3, MONTH),
+    [Sprzedaż]
+)

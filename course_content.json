@@ -1,0 +1,675 @@
+[
+    {
+        "topic": "WPROWADZENIE DO KURSU I PODSTAWY JĘZYKA ZAPYTAŃ SQL — ZAJĘCIA STACJONARNE",
+        "description": "Rozpoczynamy pracę w kursie “Analityka biznesowa dla menedżerów”. To kurs, który wprowadzi Cię w zagadnienia dotyczące analizy danych i tworzenia interaktywnych raportów. Analiza danych i raportowanie to bardzo cenne umiejętności, które przydają zarówno się podczas studiów, jak i w pracy zawodowej.\nW tym temacie poznasz plan pracy w kursie oraz kwestie organizacji pracy. Następnie dowiesz się, jak działają relacyjne bazy danych oraz poznasz podstawy języka SQL – jego składnię oraz podstawowe polecenia takie jak SELECT, FROM, ORDER BY. Dowiesz się też, czym jest Business Intelligence, jak pozyskiwane są dane, czym są hurtownie danych oraz jaką rolę Business Intelligence pełni w dzisiejszym świecie analizy danych.\nW tym temacie:\nPoznasz plan pracy w kursie,\nDowiesz się, jak zbudowane są relacyjne bazy danych,\nPoznasz język zapytań SQL, jego składnię i podstawowe polecenia,\nDowiesz się, czym jest Business Intelligence,\nWykonasz pierwsze zapytania do bazy danych.\nZasoby i narzędzia:\nMateriały teoretyczne w pliku – Czym jest BI.",
+        "resources": [
+            {
+                "title": "Czym jest BI",
+                "url": "https://resources.cyberskiller.com/materials/abc412d7-2e3b-4b41-b2a3-4ceb3a84ecad/Czym-jest-BI.pdf"
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Plan pracy w kursie Analityka biznesowa dla menedżerów",
+                "content": "1\nW tym kursie zostaną omówione najważniejsze aspekty języka zapytań SQL oraz programu Power BI Desktop. Na początku poznasz możliwości wyszukiwania, sortowania i filtrowania danych za pomocą języka zapytań SQL. Dowiesz się także, jak w prawidłowy sposób łączyć tabele w bazie danych aby poprawnie je analizować i wizualizować.\nNastępnie poznasz od podstaw obsługę programu Power BI Desktop – wiodącego narzędzia do analizy i wizualizacji danych pozwalającego na tworzenie profesjonalnych wizualizacji danych, dashboardów i pulpitów nawigacyjnych.\nNa koniec uzupełnisz swoją wiedzę informacjami dotyczącymi pisania wyrażeń w języku DAX (Data Analysis Expressions) odpowiedzialnym za wszystkie biznesowe obliczenia w Power BI Desktop. Umiejętność ta przyda się do utworzenia interaktywnego raportu spełniającego wszystkie wyzwania dzisiejszego świata IT i biznesu.\nPo ukończeniu kursu będziesz w stanie analizować i wizualizować dane – jest to jedna z kompetencji przyszłości, której posiadanie jest kluczowe na rynku pracy.\nPracę w kursie zacznij od obejrzenia filmu, aby dowiedzieć się, w jaki sposób prawidłowo korzystać z kursu i poznać bardziej szczegółowo jego tematykę.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Czym jest Business Intelligence",
+                "content": "1\nBusiness Intelligence – (pl. Analiza biznesowa) to proces gromadzenia, przetwarzania i przekształcania zbiorów danych w informacje i precyzyjną wiedzę biznesową. Jest to zespół narzędzi i procesów, które dane przechowywane w wielu systemach transformują do postaci informacji pozwalającej na sprawne i szybkie podejmowanie decyzji.\nOrganizacje wykorzystują Business Intelligence do podejmowania kluczowych decyzji w oparciu o dane. Obejrzyj film, aby dowiedzieć się w więcej o tym kluczowym pojęciu.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Czego się nauczysz w kursie",
+                "content": "1\nKurs, który przed sobą widzisz to przydatne kompendium wiedzy z zakresu analizy biznesowej – wiedza ta przyda Ci się w pracy zawodowej. Wykorzystując język SQL, będziesz w stanie pobrać z bazy danych właściwe dane, które pokażesz w atrakcyjny sposób w Power BI Desktop za pomocą profesjonalnych i atrakcyjnych dashboardów. Dzięki temu Twoje raporty staną się podstawą podejmowania decyzji opartych na danych.\nObejrzyj film, aby dowiedzieć się, co czeka Ciebie w kursie i co będziesz potrafić po jego ukończeniu.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wstęp do relacyjnych baz danych",
+                "content": "1\nRelacyjne bazy danych umożliwiają efektywne zarządzanie dużymi ilościami informacji, dlatego są powszechnie wykorzystywane do przechowywania i organizowania danych w systemach biznesowych, aplikacjach internetowych, bankowości czy e-commerce.\nJęzyk zapytań SQL jest kluczowym narzędziem do pracy z tymi danymi, pozwalając na precyzyjne wyszukiwanie, aktualizowanie oraz analizowanie informacji, co wspiera podejmowanie decyzji i automatyzację procesów biznesowych.\nObejrzyj poniższe wideo, aby dowiedzieć się, jak działają relacyjne bazy danych oraz czym jest język SQL.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tworzenie relacyjnej bazy danych - koncepcja",
+                "content": "1\nKoncepcja, która zostanie wykorzystana do zbudowania tabel faktów i wymiarów w bazie danych jest kluczowym elementem prawidłowego modelu danych.\nObejrzyj film, aby dowiedzieć się więcej, dlaczego ten aspekt jest taki istotny.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "SELECT – podstawy pobierania danych w SQL",
+                "content": "2\nZapytanie SELECT pozwala odczytywać dane z jednej lub wielu tabel w relacyjnej bazie danych. Możesz użyć konstrukcji SELECT * aby pobrać wszystkie kolumny:\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobrać wszystkie dane z bazy danych za pomocą SELECT oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Department wyświetl wszystkie rekordy, uwzględniając wszystkie kolumny: identyfikator departamentu (DepartmentId), nazwę departamentu (DepartmentName) oraz identyfikator regionu (RegionId).\nZachowaj odpowiednią kolejność kolumn w wynikach. Możesz użyć symbolu wieloznacznego (*).\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "SELECT – pobieranie wybranych kolumn",
+                "content": "2\nWiesz już, że zapytanie SELECT pozwala odczytywać dane z wszystkich tabel w relacyjnej bazie danych, ale to nie wszystko. Zapytanie SELECT pozwala również na odczytanie danych z kilku wybranych kolumn danej tabeli w bazie danych.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobrać kolumny z bazy danych za pomocą zapytania SELECT oraz wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl wszystkie nazwiska pracowników (EmployeeLastName), identyfikatory menedżerów (ManagerId) oraz identyfikatory departamentów (DepartmentId).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Pierwsze obliczenia w SQL",
+                "content": "2\nKorzystając z zapytań SQL, można także wykonywać obliczania, agregację itp. na danych znajdujących się w bazie.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wykonać proste obliczania za pomocą zapytań SQL oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl roczne dochody pracowników (obliczone jako iloczyn miesięcznego wynagrodzenia z kolumny Salary i liczby miesięcy w roku), nazwisko (EmployeeLastName) oraz imię (EmployeeFirstName).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Obliczenia w SQL - arytmetyka",
+                "content": "2\nZa pomocą zapytań SQL można także wykonywać bardziej złożone obliczania na danych znajdujących się w bazie.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wykonać obliczania za pomocą zapytań SQL oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl nazwiska (EmployeeLastName) i imiona (EmployeeFirstName) pracowników, ich miesięczne wynagrodzenie (Salary) oraz roczne dochody powiększone o premię w wysokości 5500.\nRoczne dochody oblicz jako sumę iloczynu miesięcznego wynagrodzenia (Salary) i liczby miesięcy w roku oraz rocznej premii w wysokości 5500.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Obliczenia w SQL – wyliczenia procentowe",
+                "content": "2\nZa pomocą zapytań SQL można także wykonywać obliczania procentowe na potrzeby dalszych analiz.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wykonać obliczania procentowe za pomocą zapytań SQL oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl nazwiska (EmployeeLastName) i imiona (EmployeeFirstName) pracowników, ich miesięczne wynagrodzenie (Salary) oraz roczne dochody powiększone o 5%.\nRoczne dochody oblicz jako iloczyn miesięcznego wynagrodzenia (Salary), liczby miesięcy w roku (12) oraz premii w wysokości 5% (np. mnożąc roczne dochody przez 1.05).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "SELECT DISTINCT",
+                "content": "2\nZapytanie  służy do usuwania duplikatów z wyniku zapytania. Dzięki niemu możesz pobrać tylko unikalne wartości z jednej lub wielu kolumn tabeli.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać z bazy danych tylko unikatowe rekordy z tabel oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Department wyświetl unikalne nazwy działów (DepartmentName). Skorzystaj ze słowa kluczowego DISTINCT, aby wyświetlić tylko różne nazwy.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "ORDER BY w SQL – jak sortować dane efektywnie",
+                "content": "2\nORDER BY to klauzula w SQL, która służy do sortowania oraz porządkowania wyników zapytania według jednej lub więcej kolumn. Używając ASC lub DESC można kontrolować kierunek sortowania.\nObejrzyj film, aby dowiedzieć się, w jaki sposób sortować pobrane dane z bazy danych oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl identyfikatory pracowników (EmployeeId) oraz ich nazwiska (EmployeeLastName).\nDane posortuj rosnąco według daty rozpoczęcia pracy (StartDate). Upewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "ORDER BY w praktyce",
+                "content": "2\nWiesz już, że ORDER BY to klauzula w SQL, która służy do sortowania oraz porządkowania wyników zapytania według jednej lub więcej kolumn. Wiesz też, że używając ASC lub DESC można kontrolować kierunek sortowania. Czas rozszerzyć wiedzę o tej klauzuli o kolejny przykład jej praktycznego użycia.\nObejrzyj film, aby dowiedzieć się, w jaki sposób sortować pobrane dane z bazy danych oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Department wyświetl identyfikatory departamentów (DepartmentId) oraz ich nazwy (DepartmentName).\nDane posortuj malejąco po identyfikatorach departamentów (DepartmentId).\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "ORDER BY - sortowanie po wielu kolumnach",
+                "content": "2\nW tym zadaniu dowiesz się jak sortować wynik zapytania po wielu kolumnach za pomocą klauzuli ORDER BY.\nObejrzyj film, aby dowiedzieć się, w jaki sposób sortować pobrane dane z bazy danych oraz wykonaj wspólnie z tutorem poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl nazwiska pracowników (EmployeeLastName), identyfikatory departamentów (DepartmentId), miesięczne wynagrodzenia (Salary) oraz daty zatrudnienia (StartDate).\nPosortuj wyniki rosnąco według identyfikatora departamentu (DepartmentId) oraz malejąco według wynagrodzenia miesięcznego (Salary).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "SELECT - Zadanie",
+                "content": "2\nWykonaj samodzielnie poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors wyświetl imiona (FirstName), nazwiska (LastName) oraz adresy e-mail (Email) wszystkich profesorów.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "ORDER BY - Zadanie",
+                "content": "2\nWykonaj samodzielnie poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors wyświetl imiona (FirstName), nazwiska (LastName), miesięczne wynagrodzenia (Payment) oraz adresy e-mail (Email) profesorów.\nPosortuj wyniki rosnąco według nazwiska (LastName) oraz malejąco według miesięcznego wynagrodzenia (Payment).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            }
+        ]
+    },
+    {
+        "topic": "FILTROWANIE I PRACA NA DANYCH ORAZ ZŁĄCZENIA TABEL I GRUPOWANIE DANYCH – PRACA KOHORTOWA",
+        "description": "W tym temacie rozwijamy wiedzę o języku zapytań SQL. Poznasz możliwości filtrowania danych za pomocą zapytania WHERE oraz dowiesz się jak wykorzystywać operator LIKE i operatory logiczne do filtrowania danych. Dzięki temu będziesz w stanie skutecznie filtrować dane znajdujące się bazie, wyszukując tylko te, które spełniają odpowiednie kryteria.\nPoznasz także praktyczne wykorzystanie funkcji daty i tekstu do pracy na danych, dzięki którym nauczysz się zwracać rekordy zawierający określony fragment tekstu lub mieszczące się w odpowiednim przedziale czasu. Następnie poznasz możliwości złączania tabel za pomocą różnych rodzajów zapytania JOIN. Zapoznasz się także ze zbiorami danych i rodzajami sprzężeń występujących w tabelach. Na koniec dowiesz się jak grupować zapytania za pomocą GROUP BY.\nW tym temacie:\nDowiesz się jak filtrować dane za pomocą zapytania WHERE i HAVING,\nPoznasz operatory logiczne służące do filtrowania danych,\nPoznasz możliwości filtrowania danych po dacie oraz fragmencie tekstu,\nDowiesz się jakie rodzaje złączeń występują w SQL oraz nauczysz się złączać tabele,\nNauczysz się grupować zapytania, używając GROUP BY.\nZasoby i narzędzia:\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "WHERE w SQL – wybieraj tylko to co potrzebne",
+                "content": "2\nWHERE to klauzula w SQL używana do filtrowania danych – pozwala zwrócić tylko te wiersze, które spełniają określony warunek. Służy do określania warunków, które muszą zostać spełnione, aby dany wiersz został uwzględniony w wyniku zapytania.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać przefiltrowane dane z bazy danych, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl nazwiska (EmployeeLastName), imiona (EmployeeFirstName), identyfikatory departamentów (DepartmentId) oraz miesięczne wynagrodzenia (Salary) pracowników, których imię to MAREK.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE – wyszukiwanie po dacie",
+                "content": "2\nWiesz już jak działa klauzula WHERE w SQL. Teraz czas poszerzyć wiedzę o filtrowanie danych po określonej dacie.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać z bazy danych przefiltrowane dane zgodne z oczekiwanym okresem, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl nazwiska (EmployeeLastName), imiona (EmployeeFirstName) oraz daty zatrudnienia (StartDate) pracowników, którzy zostali zatrudnieni w okresie od 1 maja 2020 roku do 1 sierpnia 2020 roku.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE – alternatywa logiczna",
+                "content": "2\nW tym zadaniu dowiesz się, jak filtrować dane za pomocą klauzuli WHERE wykorzystując alternatywy logiczne.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać przefiltrowane dane jako logiczną alternatywę, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Customer wyświetl nazwy klientów (CustomerName) oraz identyfikatory regionów (RegionId) dla klientów należących do regionów o identyfikatorach 1 lub 5.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE – Operator LIKE",
+                "content": "2\nLIKE to operator w SQL służący do wyszukiwania tekstu według wzorca. Używa się go w klauzuli WHERE, by znaleźć dane pasujące do określonego ciągu znaków.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać przefiltrowane dane używając operatora LIKE, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Customer wyświetl nazwy klientów (CustomerName), które rozpoczynają się na literę M oraz identyfikatory ich regionów (RegionId).\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE – Operator LIKE Fragment tekstu",
+                "content": "2\nWiesz już jak działa operator LIKE. W tym zadaniu dowiesz się jak filtrować dane po fragmentach tekstu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać przefiltrowane dane używając operatora LIKE, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Customer wyświetl nazwy klientów (CustomerName), adresy (Address), miasta (City) oraz identyfikatory regionów (RegionId) dla klientów, których nazwa (CustomerName) zawiera literę o.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE - is null do wyszukiwania pustych danych",
+                "content": "2\nIS NULL to operator w SQL używany do sprawdzania, czy dana kolumna zawiera wartość NULL – czyli brak wartości (nie „zero”, nie „puste”, tylko „brak danych”).\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać przefiltrowane dane, które nie mają uzupełnionych wartości, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Customer wyświetl nazwy klientów (CustomerName), którzy nie mają podanego numeru telefonu (Phone) oraz identyfikatory ich regionów (RegionId).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE - warunki logiczne",
+                "content": "3\nWarunki logiczne w SQL są używane w klauzuli WHERE, do filtrowania danych według jednego lub wielu kryteriów. Dzięki nim możemy dokładnie określić, które wiersze mają zostać zwrócone. Warunki logiczne w WHERE umożliwiają:\nfiltrowanie danych złożonymi regułami,\nłączenie wielu warunków (AND, OR),\nsprawdzanie przynależności (IN), zakresów (BETWEEN),\nobsługę brakujących danych (IS NULL).\nDzięki nim możesz tworzyć elastyczne, dokładne zapytania SQL.\nObejrzyj film, aby dowiedzieć się, w jaki sposób filtrować pobrane dane wykorzystując warunki logiczne, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl:\nImiona (EmployeeFirstName) i nazwiska (EmployeeLastName) pracowników połączone w jednej kolumnie (oddzielone spacją).\nMiesięczne wynagrodzenie (Salary).\nPokaż dane tylko dla pracowników, którzy zarabiają więcej niż 2000 miesięcznie oraz są przypisani do departamentu (DepartmentId) o identyfikatorze 1 lub 3.\nZapytanie musi być zgodne z SQLite. Upewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "SUBSTR – funkcja do wyodrębnienia danych",
+                "content": "2\nSUBSTR (lub SUBSTRING w niektórych bazach danych) to funkcja tekstowa w SQL, która wyodrębnia fragment tekstu z większego ciągu znaków.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wyodrębnić z kolumny daty zamówienia w odpowiednim formacie, oraz wspólnie z tutorem wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Orders wyświetl numery zamówień (OrderId) oraz rok i miesiąc w formacie YYYY-MM wyodrębnione z kolumny daty zamówienia (DateOrdered).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "REPLACE – zamiana lub usunięcie wybranych znaków",
+                "content": "2\nREPLACE to funkcja tekstowa w SQL, która służy do zamiany fragmentu tekstu na inny. Umożliwia podmienianie znaków lub ciągów znaków w kolumnie tekstowej.\nObejrzyj film, aby dowiedzieć się, w jaki sposób usunąć lub podmienić znaki w tekście używając funkcji REPLACE, oraz wspólnie z tutorem wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Orders wyświetl numery zamówień (OrderId) oraz daty zamówień (DateOrdered) w formacie bez znaków rozdzielających (YYYYMMDD). Do przekształcenia daty wykorzystaj funkcję REPLACE.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "CAST czyli sprytny sposób do konwersji typu danych",
+                "content": "2\nCAST to funkcja w SQL, która służy do konwersji (zmiany) typu danych jednej wartości na inny typ. Na przykład możesz zmienić tekst na liczbę, liczbę na tekst czy datę na tekst.\nObejrzyj film, aby dowiedzieć się, w jaki sposób konwertować dane na liczbę oraz wspólnie z tutorem wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Orders wyświetl numery zamówień (OrderId) oraz liczbę dni (jako liczbę całkowitą) pomiędzy datą wysłania (DateShipped) a datą zamówienia (DateOrdered). Do obliczeń wykorzystaj funkcję operującą na dniach juliańskich.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "UPPER i LOWER czyli czy wielkość liter ma znaczenie",
+                "content": "2\nUPPER i LOWER to funkcje tekstowe w SQL, które służą do zmiany wielkości liter w ciągach znaków.\nUPPER() – zamienia cały tekst na wielkie litery (małe → DUŻE),\nLOWER() – zamienia cały tekst na małe litery (DUŻE → małe).\nFunkcje te są przydatne przy porównywaniu tekstów, które mogą mieć różne wielkości liter lub przy normalizacji danych – np. przed eksportem, filtrowaniem, grupowaniem.\nObejrzyj film, aby dowiedzieć się, w jaki sposób przekształcać dane za pomocą funkcji oraz wspólnie z tutorem wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Employee wyświetl nazwiska pracowników (EmployeeLastName) zapisane wielkimi literami, imiona (EmployeeFirstName) zapisane małymi literami oraz ich wynagrodzenie miesięczne (Salary).\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "ROUND gdy potrzebujemy zaokrąglić liczby",
+                "content": "2\nROUND to funkcja numeryczna w SQL, która służy do zaokrąglania liczb do określonej liczby miejsc po przecinku. Funkcje zaokrąglania są przydatne np. do zaokrąglania cen, rabatów czy do formatowania danych do prezentacji.\nObejrzyj film, aby dowiedzieć się, w jaki sposób zaokrąglać dane za pomocą funkcji ROUND oraz wspólnie z tutorem wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabeli Product wyświetl sugerowane ceny produktów zaokrąglone do dwóch miejsc po przecinku oraz jako wartości całkowite bez zaokrąglania. Dodatkowo wyświetl nazwy produktów (ProductName), a dane posortuj rosnąco po nazwie produktu.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "SQL JOIN – wprowadzenie do złączeń",
+                "content": "3\nZapytanie JOIN w SQL to operacja łączenia danych z dwóch (lub więcej) tabel na podstawie relacji między nimi – zwykle przez dopasowanie wartości w jednej kolumnie z jednej tabeli do wartości w kolumnie z drugiej.\nWyróżniamy kilka rodzajów zapytania JOIN zależne od sposobu złączania danych. Podstawowe rodzaje zapytań JOIN w SQL to:\nINNER JOIN - Zwraca tylko te wiersze, które mają dopasowanie w obu tabelach.\nLEFT JOIN - Zwraca wszystkie wiersze z lewej tabeli i dopasowane wiersze z prawej (jeśli brak dopasowania, to wartości z prawej tabeli będą NULL).\nRIGHT JOIN - Zwraca wszystkie wiersze z prawej tabeli i dopasowane z lewej.\nFULL JOIN - Zwraca wszystkie wiersze, gdy jest dopasowanie w jednej z tabel.\nCROSS JOIN - Tworzy iloczyn kartezjański – łączy każdy wiersz z jednej tabeli z każdym wierszem z drugiej.\nObejrzyj film, aby dowiedzieć się, w jaki sposób pobierać dane z wielu tabel w SQL, a następnie poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ dwóch tabel, Customer i Region, wyświetl nazwy klientów (CustomerName) oraz nazwy regionów (RegionName), do których są przypisani.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "INNER JOIN w praktyce",
+                "content": "3\nINNER JOIN to zapytanie, które zwraca tylko te wiersze, które mają dopasowanie w obu tabelach. Obejrzyj film, aby dowiedzieć się, w jaki sposób pobierać dane z innej tabeli używając INNER JOIN, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabel Department oraz Region wyświetl identyfikatory (DepartmentId) i nazwy departamentów (DepartmentName) oraz nazwy regionów (RegionName), w których się znajdują.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Złączenia wielu tabel",
+                "content": "4\nKorzystając z zapytań SQL, możesz pobierać dane z wielu tabel za pomocą jednego zapytania. Obejrzyj film, aby dowiedzieć się, w jaki sposób pobierać dane z wielu tabel oraz wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabel Employee, Department oraz Title wyświetl nazwiska (EmployeeLastName) i imiona pracowników (EmployeeFirstName), ich miesięczne wynagrodzenia (Salary), nazwy stanowisk (TitleName) oraz nazwy departamentów (DepartmentName).\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Złączenia wielu tabel z warunkiem",
+                "content": "4\nWiesz już, że możliwe jest pobranie danych z wielu tabel. Możliwe jest dodanie warunku do tego zapytania, aby otrzymać tylko rekordy spełniające ten warunek. Obejrzyj film, aby dowiedzieć się, w jaki sposób pobierać dane z wielu tabel uwzględniając warunek logiczny, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabel Employee, Department oraz Title wyświetl nazwiska (EmployeeLastName) i imiona pracowników (EmployeeFirstName ), ich miesięczne wynagrodzenie (Salary), nazwę stanowiska (TitleName ), a także nazwę departamentu (DepartmentName). Uwzględnij jedynie tych pracowników, których wynagrodzenie miesięczne (Salary) przekracza 2000.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Podstawowe funkcje",
+                "content": "3\n w SQL służą do wykonywania obliczeń na grupach danych. Wyróżniamy następujące funkcje:\nCOUNT() - Liczy ilość wierszy\nSUM() - Sumuje wartości z kolumny\nAVG() - Oblicza średnią\nMIN() - Znajduje najmniejszą wartość\nMAX() - Znajduje największą wartość\nObejrzyj film, aby dowiedzieć się, w jaki sposób używać funkcji q SQL do agregacji danych, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nWyświetl minimalne, maksymalne oraz średnie miesięczne zarobki (Salary), a także sumę wszystkich miesięcznych zarobków oraz liczbę wszystkich pracowników z tabeli Employee.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "GROUP BY – jak analizować dane w grupach",
+                "content": "4\nZapytanie GROUP BY w SQL służy do grupowania wierszy na podstawie wartości w jednej (lub więcej) kolumnie i najczęściej używa się go razem z funkcjami agregującymi (takimi jak COUNT(), SUM(), AVG(), MIN(), MAX()).\nObejrzyj film, aby dowiedzieć się, w jaki sposób grupować dane po dacie używając GROUP BY, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nPogrupuj pracowników z tabeli Employee po roku i miesiącu zatrudnienia. Wyświetl liczbę pracowników zatrudnionych w danym miesiącu jako pierwszą kolumnę oraz miesiąc i rok w formacie YYYY-MM.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "GROUP BY w praktyce",
+                "content": "4\nObejrzyj film, aby dowiedzieć się, w jaki sposób grupować dane używając GROUP BY i sortować używając ORDER BY, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabel Orders i Customer wyświetl nazwy klientów (CustomerName) oraz sumy wartości ich wszystkich zamówień (Total), pomijając zamówienia opłacone kartą (pole PaymentType ma wartość Card). Wynik posortuj rosnąco według sumy zamówień.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Grupowanie z funkcjami",
+                "content": "4\nObejrzyj film, aby dowiedzieć się, w jaki sposób grupować dane używając także funkcji agregujących, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabel Orders, Customer, Product oraz OrderPosition wyświetl: numer zamówienia (OrderId), datę zamówienia (DateOrdered), datę wysyłki (DateShipped), nazwę klienta (CustomerName), nazwę produktu (ProductName ) oraz sumę iloczynów liczby produktów (Quantity) i ceny netto tych produktów. Dane pogrupuj według numeru zamówienia (OrderId) oraz nazwy produktu (ProductName ).\nWyniki ogranicz do zamówień złożonych w miesiącach czerwiec i lipiec roku 2020 oraz opłaconych kartą (wartość pola PaymentType równa Card).\nDane posortuj rosnąco według numeru zamówienia oraz daty zamówienia.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "HAVING – filtrowanie grup danych w SQL",
+                "content": "2\nHAVING w SQL służy do filtrowania wyników po agregacji, czyli po użyciu funkcji takich jak COUNT(), SUM(), AVG() itd. Działa podobnie do WHERE, lecz WHERE filtruje dane przed grupowaniem, a HAVING – po grupowaniu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób filtrować dane już zgrupowane, a następnie wykonaj poniższe zadanie w edytorze kodu.\nOdtwórz wideo\nZadanie:\nZ tabel Department, Region oraz Employee wyświetl nazwy departamentów (DepartmentName) i regionów (RegionName), a także średnie miesięczne zarobki pracowników przypisanych do tych departamentów. Uwzględnij tylko te rekordy, dla których średnie miesięczne wynagrodzenie jest większe niż 1400. Dane pogrupuj według identyfikatora departamentu (DepartmentId).\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Test sprawdzający teoretyczny",
+                "content": "10\nPrzystąp do testu, żeby sprawdzić swoją wiedzę nabytą w tym temacie.\nUwaga! Quiz jednokrotnego wyboru.\nPrzejdź do quizu"
+            }
+        ]
+    },
+    {
+        "topic": "FILTROWANIE I PRACA NA DANYCH ORAZ ZŁĄCZENIA TABEL I GRUPOWANIE DANYCH – ZAJĘCIA STACJONARNE",
+        "description": "W tym temacie wykorzystasz wiedzę teoretyczną zdobytą w poprzednim temacie do rozwiązania praktycznych zadań.\nPracę w tym temacie zaczniesz od zadań dotyczących filtrowania danych z wykorzystaniem zapytania WHERE. Następnie przejdziesz przez zadania dotyczące złączania tabel. Na koniec przejdziesz przez zadania dotyczące grupowania wyników zapytań.\nW tym temacie:\nWykorzystasz zapytanie WHERE do filtrowania danych,\nWykorzystasz operator LIKE oraz operatory logiczne w filtrowaniu danych,\nWykorzystasz funkcje daty i tekstu do pracy z danymi,\nWykorzystasz GROUP BY do grupowania zapytań.\nZasoby i narzędzia:\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "WHERE – Zadanie Wyszukanie po nazwie",
+                "content": "2\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors wyświetl:\nImiona (FirstName) i nazwiska (LastName) profesorów,\nMiesięczne wynagrodzenie (Payment),\nAdresy e-mail (Email).\nPokaż dane tylko dla profesorów o imieniu Donald.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE – Zadanie warunki",
+                "content": "4\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Students wyświetl imiona (FirstName) i nazwiska (LastName) studentów oraz daty ich urodzenia (DateOfBirth). Pokaż dane tylko dla studentów urodzonych w przedziale od 1 stycznia 1995 do 31 grudnia 1998 lub od 1 stycznia 2000 do 31 grudnia 2003.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "WHERE – Zadanie LIKE",
+                "content": "3\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Students wyświetl numer identyfikacyjny (StudentId), imię (FirstName, nazwisko (LastName) oraz adres e-mail (Email) studentów, których imiona rozpoczynają się na literę A.\nUpewnij się, że kolumny w wynikach są wyświetlane w podanej kolejności.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Wielkość liter - Zadanie",
+                "content": "4\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors wyświetl imiona (FirstName), nazwiska (LastName) oraz adresy e-mail (Email) profesorów, przy czym adresy e-mail mają być wyświetlone wielkimi literami.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Zaokrąglanie - Zadanie",
+                "content": "3\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors wyświetl imiona (FirstName), nazwiska (LastName) oraz pensje (Payment) profesorów. Pensje powinny być zaokrąglone do pełnych setek, ale wynik pozostanie liczbą rzeczywistą. Dane w kolumnie Payment są zapisane jako liczby całkowite. Zapytanie powinno być zgodne z SQL SQLite.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Złączenia tabel - Zadanie",
+                "content": "3\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Students oraz tabeli Enrollments wyświetl imiona (FirstName) i nazwiska (LastName) studentów, a także identyfikatory zapisów (EnrollmentId), do których są przypisani.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Złączenia tabel II – Zadanie",
+                "content": "4\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors oraz Departments wyświetl imiona (FirstName) i nazwiska (LastName) profesorów, a także nazwy wydziałów (DepartmentName), do których są przypisani.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Złączenia wielu tabel - Zadanie",
+                "content": "5\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabel Students, Enrollments oraz Programs wyświetl imiona (FirstName) i nazwiska \\ (LastName) studentów, identyfikatory (EnrollmentId) i daty zapisów (EnrollmentDate), a także nazwy programów (ProgramName), do których są przypisani.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Podstawowe funkcje - Zadanie",
+                "content": "3\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Professors wyświetl następujące informacje:\nMinimalne miesięczne wynagrodzenie,\nMaksymalne miesięczne wynagrodzenie,\nZaokrąglone do całości średnie miesięczne wynagrodzenie,\nSumę wszystkich miesięcznych wynagrodzeń,\nLiczbę wszystkich pracowników.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Grupowanie po dacie – Zadanie",
+                "content": "4\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nZ tabeli Students wyświetl następujące informacje:\nLiczbę studentów urodzonych w danym roku,\nRok urodzenia studentów.\nDane pogrupuj według roku urodzenia.\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            },
+            {
+                "title": "Grupowanie i filtrowanie grup – Zadanie",
+                "content": "4\nWykonaj poniższe zadanie w edytorze kodu.\nZadanie:\nWyświetl nazwy wydziałów (DepartmentName) oraz średnie miesięczne zarobki profesorów dla tych wydziałów, gdzie średnie wynagrodzenie miesięczne przekracza 3000. Wyniki powinny być pogrupowane według nazw wydziałów (DepartmentName).\nSchemat bazy danych\nOczekiwany wynik zapytania\nOdpowiedzi\nPrzejdź do edytora kodu"
+            }
+        ]
+    },
+    {
+        "topic": "WPROWADZENIE DO POWER BI, POBIERANIE DANYCH ORAZ POWER QUERY – PRACA KOHORTOWA",
+        "description": "Poprzednie tematy dotyczyły języka zapytań SQL i pozwoliły Ci poznać jego składnię, podstawowe polecenia oraz nauczyć się wykonywać proste operacje na danych. Wiesz też, czym są i jak działają relacyjne bazy danych. Dzięki tym umiejętnościom jesteś już w stanie pracować z danymi w podstawowy sposób.\nTeraz czas na poznanie nowego narzędzia – Microsoft Power BI Desktop. Power BI Desktop to aplikacja służąca do analizy danych oraz tworzenia interaktywnych wizualizacji i raportów. Pozwala na łatwe tworzenie raportów przedstawiających dane w interaktywnej formie, a także udostępnianie tych raportów innym użytkownikom. Dzięki prostemu interfejsowi, możliwości przeprowadzania zaawansowanych analiz oraz wizualizacji danych szybko stała się wiodącym narzędziem w dziedzinie Business Intelligence. Jest powszechnie wykorzystywana przez organizacje na całym świecie, dlatego jej znajomość jest ważnym atutem na rynku pracy.\nW tym temacie poznasz podstawy pracy w Power BI. Na początku poznasz jej interfejs oraz podstawy pracy w aplikacji. Następnie dowiesz się jak pobierać dane do programu w celu ich dalszej analizy i wizualizacji. Po pobraniu danych do programu dowiesz się, jak dokonywać na nich podstawowych transformacji korzystając z edytora Power Query. Dowiesz się jak filtrować dane, transformować kolumny, tworzyć kolumny, scalać zapytania oraz agregować dane. Po ukończeniu tego tematu zdobędziesz solidne podstawy do dalszej pracy z programem Power BI.\nW tym temacie:\nPoznasz interfejs aplikacji oraz podstawy pracy w Power BI,\nNauczysz się pobierać dane do Power BI Desktop z różnych źródeł,\nPoznasz najważniejsze łączniki danych oraz dowiesz się jak ekstraktować dane z różnych źródeł,\nPoznasz edytor Power Query oraz dowiesz się jak wykorzystać go do transformacji danych,\nDowiesz się jak dokonywać transformacji na danych takich jak filtrowanie danych, tworzenie i przekształcanie kolumn, dołączanie zapytań oraz grupowanie danych.\nZasoby i narzędzia:\nMicrosoft Power BI Desktop\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "Poznaj narzędzie Power BI",
+                "content": "3\nMicrosoft Power BI jest platformą pozwalającą na tworzenie interaktywnych raportów oraz wizualizację danych. Umożliwia gromadzenie, zarządzanie i analizowanie danych z różnych źródeł za pomocą przyjaznego dla użytkownika interfejsu. Ta aplikacja jest powszechnie wykorzystywana w środowisku biznesowym, jak i poza nim.\nObejrzyj film, aby dowiedzieć się, czym jest i jak działa Power BI.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Instalacja programu MS Power BI na systemie operacyjnym macOS",
+                "content": "1\nPower BI Desktop to aplikacja stworzona z myślą o systemie operacyjnym Windows, stąd nie występuje w dedykowanej wersji na system operacyjny macOS. Jednakże jej uruchomienie na komputerze z systemem macOS jest możliwe, wymaga tylko kilku dodatkowych kroków.\nJeśli korzystasz z komputera z systemem macOS to w tym zadaniu dowiesz się jak uruchomić na nim aplikację Power BI Desktop. Obejrzyj wideo, na którym pokazana została instalacja programu krok po kroku.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Logowanie do bazy danych",
+                "content": "1\nW ramach zadań z Power BI konieczne będzie pobranie danych, na których będziesz dokonywać operacji. Poniżej znajdziesz dane logowania oraz instrukcję podłączania Power BI do bazy.\nHost database: database-1.c4xebry0uvcl.eu-west-1.rds.amazonaws.com:1433\nBaza danych: Sales\nLogin: powerbi\nHasło: BM9JDy7TKq\nInstrukcja importowania bazy danych\nWróć do tego zadania, gdy zaczniesz pracę z programem Power BI i wykorzystaj powyższe informacje do podłączenia bazy danych.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Widok raportu",
+                "content": "1\nWiesz już czym jest aplikacja Power BI oraz jakie daje możliwości. Teraz czas poznać poszczególne jej funkcje. W tym zadaniu dowiesz się czym jest zakładka “”.\nZakładka „” to jedna z głównych zakładek programu Power BI Desktop. Zawiera narzędzia pozwalające na wizualizację danych. W tym miejscu znajdziesz podstawowe typy wykresów oraz podstawowe funkcjonalności przydatne do tworzenia atrakcyjnych wizualizacji.\nObejrzyj film, aby poznać interfejs tej zakładki i jej podstawowe funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Widok raportu bez “Interakcji na obiekcie”",
+                "content": "1\nZ programem Power BI Desktop można pracować na ustawieniach domyślnych lub ustawić inne, dopasowane do naszych preferencji. Jednym z ustawień jest możliwość pracy bez aktywnej funkcji „Interakcja na obiekcie”.\nObejrzyj film, aby dowiedzieć się, jak wpływa to na pracę z programem.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Widok danych",
+                "content": "1\nZakładka „” w programie Power BI Desktop zawiera narzędzia pozwalające na podgląd danych importowanych do raportu. W tym miejscu można utworzyć nową kolumnę obliczeniową lub posortować kolumny względem siebie.\nObejrzyj film, aby poznać interfejs tej zakładki i jej podstawowe funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Widok modelu",
+                "content": "1\nZakładka „” w programie Power BI Desktop zawiera narzędzia pozwalające na zarządzanie relacjami w modelu danych oraz katalogowanie miar.\nObejrzyj film, aby poznać interfejs tej zakładki i jej podstawowe funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Typy łączników do danych",
+                "content": "1\nAplikacja Power BI Desktop umożliwia nam skorzystanie z wielu łączników do pobierania danych, od plików płaskich poprzez bazy danych, aż po usługi chmurowe.\nObejrzyj film, aby dowiedzieć się, jakie są dostępne typy łączników i na jakie grupy możemy je podzielić.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tryb połączenia Live",
+                "content": "1\nJedną z możliwości, z jakiej możemy skorzystać łącząc Power BI z bazą danych, jest tryb połączenia Live. Jest jednym z dwóch bezpośrednich połączeń, który jest wykorzystywany tylko z kilkoma źródłami danych. Co ma do zaoferowania i kiedy powinien być używany?\nObejrzyj film, aby poznać możliwości trybu połączenia Live.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tryb połączenia DirectQuery",
+                "content": "1\nKolejnym trybem pozwalającym na łączenie się z bazą danych jest tryb połączenia DirectQuery. Jest trybem bezpośredniego połączenia. Jego możliwości znacząco różnią się od możliwości trybu Live.\nObejrzyj film, aby zapoznać się z możliwościami i ograniczeniami tego trybu pobierania danych.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Live vs. DirectQuery",
+                "content": "1\nZnasz już dwa tryby pobierania danych – Live i Direct Query. Nadszedł czas na omówienie różnic między nimi.\nObejrzyj film, aby zrozumieć w praktyce, jakie są różnice między nimi.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tryb połączenia Import",
+                "content": "1\nW Power BI Desktop możemy skorzystać także z innego trybu pobierania danych. Jest to tryb Import, który w porównaniu z pozostałymi pobiera i przechowuje dane w modelu.\nObejrzyj film, aby zapoznać się z możliwościami i ograniczeniami tego trybu pobierania danych.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Połączenie do plików płaskich",
+                "content": "2\nKolejną możliwością pobrania danych do Power BI Desktop są pliki o strukturze płaskiej takie jak np. XLSX, CSV czy JSON. Pliki płaskie są popularnymi formami zbierania dużych ilości danych, które są często wykorzystywane przez organizacje, warto więc wiedzieć jak podłączyć je do programu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób łączyć się z plikami płaskimi oraz ładować je do programu.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Ekstrakcja danych ze stron internetowych",
+                "content": "2\nPower BI Desktop umożliwia także pobieranie i wyodrębnianie informacji ze stron internetowych oraz ładowanie ich bezpośrednio do narzędzia co jest znacznym ułatwieniem pracy – nie trzeba ręcznie wyodrębniać danych ze stron internetowych, wklejać je do arkusza, a następnie podłączać arkusza do programu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób połączyć się ze stroną internetową i pobrać z niej dane.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Sprawdź swoją wiedzę z podstaw Power BI",
+                "content": "10\nPoprzednie zadania pozwoliły Ci zapoznać się z aplikacją Power BI, jej interfejsem i podstawowymi funkcjami. Teraz wiesz już, jak działa aplikacja oraz jak podłączać dane do dalszej analizy i tworzenia wizualizacji.\nTeraz czas na sprawdzenie wiedzy – rozwiąż quiz i sprawdź swoją wiedzę z zakresu podstaw Power BI.\nUwaga! Quiz wielokrotnego wyboru.\nPrzejdź do quizu"
+            },
+            {
+                "title": "Poznaj edytor Power Query",
+                "content": "1\nW poprzednich zadaniach dowiedzieliśmy się jak podłączać dane do programu w celu ich dalszej analizy i przygotowania wizualizacji.\nTeraz pójdziemy krok dalej – dowiesz się jak pracować z danymi w programie Power BI wykorzystując edytor Power Query. Edytor Power Query jest integralną częścią programu Power BI Desktop oraz MS Excel – służy on do łączenia i transformacji danych.\nObejrzyj film, aby poznać edytor Power Query oraz jego podstawowe funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Podstawowe transformacje",
+                "content": "2\nZ pomocą Power Query w bardzo prosty i intuicyjny dla użytkownika sposób można przygotować dane do dalszej analizy dokonując na nich podstawowych transformacji.\nObejrzyj film, aby poznać podstawowe funkcjonalności edytora Power Query oraz dobre praktyki pracy z edytorem.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Filtrowanie danych",
+                "content": "1\nGdy potrzebujemy dokonać filtrowania zestawu danych, możemy to zrobić bezpośrednio w Power Query.\nObejrzyj film, aby dowiedzieć się, w jaki sposób przefiltrować dane w kolumnach oraz aby zrozumieć zasadę filtrowania w Power Query.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Transformacje kolumn tekstowych",
+                "content": "2\nPower Query umożliwia szereg przekształceń możliwych do wykonania na kolumnach tekstowych.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z tych funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Transformacje kolumn liczbowych",
+                "content": "2\nPower Query umożliwia szereg przekształceń możliwych do wykonania na kolumnach liczbowych.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z tych funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Transformacje kolumn daty i czasu",
+                "content": "2\nPower Query umożliwia szereg przekształceń możliwych do wykonania na kolumnach typu data i godzina.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z tych funkcjonalności.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Grupowanie i agregacja",
+                "content": "2\nZ pomocą Power Query dane, które pobieramy z naszego źródła, możemy uogólnić przez ich zgrupowanie i agregację.\nObejrzyj film, aby zapoznać się z możliwościami grupowania danych oraz zrozumieć, w jakich przypadkach jest to przydatne. Z filmu dowiedz się także, czym jest odwołanie i duplikat zapytania.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Scalanie zapytań – rodzaje sprzężeń",
+                "content": "2\nScalanie zapytań pozwala na dodanie kolumn z jednego zapytania do drugiego, łącząc je po kluczu.\nObejrzyj film, aby poznać i zrozumieć, jakie rodzaje sprzężeń możesz wykorzystać w Power Query.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Scalenie lewe zewnętrzne",
+                "content": "2\nWiesz już jakie rodzaje sprzężeń możesz wykorzystać podczas pracy z danymi. Teraz dowiesz się jak w praktyce wykorzystać je raporcie.\nObejrzyj film, w którym przejdziemy przez sposób użycia scalenia „lewe zewnętrzne” oraz omówimy możliwość wyszukiwania danych na podstawie kilku kolumn.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Scalenia lewe anty",
+                "content": "2\nKolejnym przydatnym rodzajem sprzężenia jest „lewe anty”.\nObejrzyj film, w którym przejdziemy przez sposób użycia scalenia „lewe anty”. Dowiesz się też, jak wyciągnąć brak części wspólnej z dwóch tabel.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dołączanie zapytań",
+                "content": "2\nPower Query pozwala na łączenie wielu zapytań ze sobą, także pionowo. “Dołącz zapytanie” jest wbudowanym narzędziem, które pozwala w prosty sposób utworzyć jedną zbiorczą tabelę z kilku mniejszych.\nObejrzyj film, aby dowiedzieć się, w jaki sposób łączyć zapytania.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dołączanie zapytań – często popełniane błędy",
+                "content": "2\nWiesz już jak działa dołączanie zapytań. W tym zadaniu dowiesz się jakie błędy są często popełniane przy dołączaniu danych oraz jak ich unikać.\nObejrzyj film, aby zrozumieć, czego nie należy robić, aby dołączenie zapytań wykonywało się w prawidłowy sposób w raporcie. Skupimy się na potencjalnych błędach oraz tym jak ich uniknąć.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Pobieranie z folderu – łączenie plików XLSX",
+                "content": "2\nPower Query posiada także konektor “Folder”, który pozwala połączyć wszystkie pliki, które znajdują się w określonym folderze.\nObejrzyj film, aby dowiedzieć się, jak poprawnie wykonać takie łączenie plików na przykładzie plików XLSX oraz jakie są inne możliwości tego konektora.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Pobieranie z folderu – łączenie plików CSV",
+                "content": "2\nWiesz już jak łączyć pliki xlsx podczas pobierania danych z folderu. W tym zadaniu dowiesz się jak połączyć pliki CSV.\nObejrzyj film, aby dowiedzieć się, jak poprawnie wykonać takie łączenie plików na przykładzie plików CSV oraz jakie inne możliwości posiada ten konektor.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Kolumna niestandardowa",
+                "content": "2\nEdytor Power Query umożliwia tworzenie różnych typów kolumn kalkulowanych. Kolumny kalkulowane w Power Query możemy tworzyć zarówno za pomocą interfejsu, jak i kolumn niestandardowych.\nObejrzyj film, aby dowiedzieć się, jak w prawidłowy sposób utworzyć nową kolumnę za pomocą kolumny niestandardowej oraz w jaki sposób napisać bardziej skomplikowany kod w języku M.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Kolumna warunkowa",
+                "content": "2\nEdytor Power Query umożliwia nam tworzenie różnych typów kolumn kalkulowanych, w tym kolumnę warunkową.\nObejrzyj film, aby dowiedzieć się, jak w prawidłowy sposób utworzyć nową kolumnę warunkową za pomocą wbudowanych narzędzi.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Sprawdzanie jakości danych",
+                "content": "1\nEdytor Power Query umożliwia również profilowanie naszych danych poprzez opcję podglądu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z opcji profilowania kolumn.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Najlepsze praktyki Power Query",
+                "content": "1\nZnasz już edytor Power Query, jego podstawowe i bardziej zaawansowane funkcjonalności.\nObejrzyj film, aby przypomnieć sobie dobre praktyki podczas pracy z Power Query.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Sprawdź swoją wiedzę z Power Query",
+                "content": "30\nPoprzednie zadania pozwoliły Ci zapoznać edytorem Power Query oraz jego najważniejszymi funkcjami.\nTeraz czas na sprawdzenie wiedzy – rozwiąż quiz i sprawdź swoją wiedzę z zakresu edytora Power Query.\nUwaga! Quiz wielokrotnego wyboru.\nPrzejdź do quizu"
+            }
+        ]
+    },
+    {
+        "topic": "WPROWADZENIE DO POWER BI, POBIERANIE DANYCH ORAZ POWER QUERY – ZAJĘCIA STACJONARNE",
+        "description": "W tym temacie wykorzystasz w praktyce wiedzę zdobytą w poprzednim temacie i wykonasz pierwsze operacje w programie Power BI Desktop.\nZaczniesz od zadań dotyczących pobierania danych z różnych źródeł. Następnie przejdziesz przez zdania z zakresu działań na danych w Power Query – od podstawowych transformacji przez transformacje kolumn, agregację aż po scalanie i dołączanie zapytań.\nW tym temacie:\nPobierzesz dane z różnych źródeł do Power BI,\nWykonasz podstawowe transformacje na danych,\nPrzeprowadzisz transformacje kolumn,\nDokonasz scalenia i dołączenia zapytań.\nZasoby i narzędzia:\nMicrosoft Power BI Desktop\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "Połączenie do baz danych",
+                "content": "3\nWiesz już, jak działa łączenie i pobieranie danych z baz do programu Power BI. Teraz twoim zadaniem będzie podłączenie Power BI do poniższej bazy oraz wykonanie zadanie. Uruchom program Power BI i wykonaj poniższe zadanie.\nBaza danych:\nHost databese: database-1.c4xebry0uvcl.eu-west-1.rds.amazonaws.com:1433\nBaza danych : Sales\nLogin: powerbi\nHasło: BM9JDy7TKq\nJeśli potrzebujesz pomocy przy połączeniu, zajrzyj do instrukcji połączenia z bazą danych\nZadanie:\nUżywając trybu połączenia Import, pobierz tabele: FACT_SALES, DIM_PRODUCT, DIM_CUSTOMER i DIM_EMPLOYEE.\nUwaga! Po ukończeniu zadania, zachowaj plik z zaimportowanymi tabelami z bazy [Sales] w formacie .pbix – będziesz go używać w dalszej części kursu.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Pobranie danych zapytaniem SQL",
+                "content": "4\nNapisz zapytanie SQL, które z tabel FACT_SALES, DIM_PRODUCT, DIM_TIME pobierze dane o nazwie i kategorii produktów z tabeli DIM_PRODUCT, datę z tabeli DIM_TIME oraz GrossSales z tabeli FACT_SALES. Pobrane dane załaduj do Power BI i utwórz macierz z danych.\nPodgląd tabel w bazie danych:\nDIM_PRODUCT\nDIM_TIME\nFACT_SALES\nPobrane dane załaduj do Power BI i utwórz macierz z danych wyglądającą jak na poniższym obrazku:\nOznacz jako wykonane"
+            },
+            {
+                "title": "Połączenie do plików płaskich",
+                "content": "3\nWiesz już, jak działa łączenie się i pobieranie danych z plików płaskich. Teraz twoim zadaniem będzie załadować do Power BI dane z pliku płaskiego, używając odpowiednich łączników.\nPliki do załadowania znajdują się w folderze: pliki_5.3.zip (kliknij w link i pobierz folder).\nOznacz jako wykonane"
+            },
+            {
+                "title": "Podstawowe transformacje",
+                "content": "3\nWiesz już, jak działają podstawowe transformacje w Power Query. Używając pliku .pbix, który przygotowaliśmy w zadaniu łączenia się do bazy danych [Sales], wykonaj następujące zadania w Power Query:\nZastąp wartości w kolumnie Gender z wartości K i M na odpowiednie, pełne nazwy płci.\nSprawdź poprawność typów danych w kolumnach, w razie potrzeby dostosuj je do pożądanych typów.\nDostosuj nazwy kolumn tak, żeby były ujednolicone między tabelami i proste do zrozumienia.\nZastąp wartości NULL w kolumnach liczbowych na 0.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Transformacje kolumn tekstowych",
+                "content": "3\nWiesz już, jak działają transformacje kolumn tekstowych w Power Query. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania w Power Query:\nW tabeli DIM_Customer stwórz nową kolumnę [FullName], która będzie zawierała imię i nazwisko klienta.\nW tabeli DIM_Customer w kolumnie [Province] wyodrębnij samą nazwę województwa i przetransformuj nazwę tak, żeby każdy wyraz zaczynał się z wielkiej litery.\nW tabeli DIM_PRODUCT w kolumnie [Product_Name] zmień wartości nazwy produktu, żeby każde słowo zaczynało się z wielkiej litery.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Transformacje kolumn liczbowych",
+                "content": "3\nWiesz już, jak działają transformacje kolumn liczbowych w Power Query. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania w Power Query:\nW tabeli FACT_SALES oblicz wartość VAT dla produktu (wynik wstaw w nowej kolumnie).\nZaokrąglij wszystkie kolumny dziesiętne do drugiego miejsca po przecinku.\nPrzetestuj także zaokrąglanie do jednego miejsca po przecinku na wybranej przez siebie kolumnie np. GrossSales. Zauważ, że zaokrąglenie jest dokonywane na poziomie każdego wiersza, więc finalne zagregowane wyniki będą się różnić w stosunku do dwóch miejsc po przecinku.\nW nowej kolumnie oblicz finalną wartość produktu tak, jakby każdy produkt był dodatkowo przeceniony o 15%.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Transformacje kolumn daty i czasu",
+                "content": "3\nWiesz już, jak działają transformacje kolumn daty i czasu w Power Query. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania w Power Query:\nW tabeli DIM_Customer stwórz nową kolumnę i oblicz wiek klientów w nowej kolumnie jako liczbę całkowitą.\nStwórz oddzielne kolumny dla daty i czasu z kolumny daty w tabeli [FACT_SALES].\nNa podstawie daty z tabeli [FACT_SALES] stwórz kolumny: rok, kwartał, miesiąc, tydzień w roku, dzień.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Grupowanie i agregacja (zadanie dodatkowe)",
+                "content": "3\nWiesz już, jak działa grupowanie i agregacja danych. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania w Power Query:\nKorzystając z duplikatu tabeli [FACT_SALES], oblicz wartość finalną każdego zamówienia.\nKorzystając z duplikatu tabeli [FACT_SALES], oblicz, ile każdy pracownik obsłużył zamówień w 2021.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Scalanie zapytań",
+                "content": "3\nWiesz już, jak działa transformacja scalania zapytań. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadanie w Power Query:\nUtwórz duplikat tabeli [FACT_SALES], a następnie używając transformacji scalania zapytań, dołącz do niej z tabeli DIM_CUSTOMER informacje o klientach (FullName) i produktach (Product Name) z tabeli DIM_PRODUCT.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dołączanie zapytań",
+                "content": "1\nWiesz już, jak działa transformacja dołączania zapytania. Używając pliku .pbix, na którym pracowaliśmy do tej pory, pobierz z bazy danych [Sales] dwie dodatkowe tabelki używając poniższych zapytań:\nSELECT \n  [InvoiceNo]\n  ,YEAR([Date]) AS [SaleYear]\n  ,[idCustomer]\n  ,SUM([NetPrice]) AS [NetPrice]\n  ,SUM([GrossPrice]) AS [GrossPrice]\nFROM [Sales].[dbo].[FACT_SALES]\nWHERE YEAR([Date]) = 2020\nGROUP BY [InvoiceNo],YEAR([Date]),[idCustomer]\nSELECT \n  [InvoiceNo]\n  ,YEAR([Date]) AS [SaleYear]\n  ,[idCustomer]\n  ,SUM([NetPrice]) AS [NetValue]\n  ,SUM([GrossPrice]) AS [GrossValue]\nFROM [Sales].[dbo].[FACT_SALES]\nWHERE YEAR([Date]) = 2023\nGROUP BY [InvoiceNo],YEAR([Date]),[idCustomer]\nNastępnie połącz oba zapytania tak, aby wynik zawierał tabelę z 5 kolumnami. Zwróć uwagę na inne nazwy kolumn w zapytaniu – pamiętaj, że trzeba ujednolicić nazwy poprawiając zapytanie SQL lub zmienić je w edytorze Power Query.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Kolumny kalkulowane",
+                "content": "3\nWiesz już, jak tworzyć różne typy kolumn kalkulowanych w Power Query. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania w Power Query:\nUżywając tabeli [Product], pogrupuj wartości brutto produktów w grupy jako wartości nowej kolumny:\n1 - 4000 => Low\n4001 - 20000 => Low/Medium\n20001 - 35000 => Medium\n35001 - 60000 => Medium/High\n60001 => High.\nUżywając tabeli [Product], utwórz nową kolumnę, która będzie połączeniem producenta, nazwy produktu i kategorii produktu.\nUżywając tabeli [Sales], utwórz kolumnę daty o formacie “Q1 2023”.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Sprawdź swoje umiejętności w praktyce",
+                "content": "6\nPoprzednie zadania pozwoliły Ci zapoznać się z programem Power BI, pobieraniem danych oraz przekształcaniem ich za pomocą Power Query. Te umiejętności to podstawa pracy w Power BI – łącząc je będziesz w stanie stworzyć swój pierwszy raport!\nNadszedł czas na podsumowanie wszystkich zdobytych umiejętności w jednym raporcie. Twoim zadaniem będzie połączenie plików CSV z folderu, scalenie i dołączenie zapytań oraz stworzenie nowej kolumny kalkulowanej, aby finalnie otrzymać całościowy raport.\nPobierz i rozpakuj folder Zadanie 14_Test spawdzający Praktyczny.zip, a następnie na podstawie znajdujących się w nim danych wykonaj poniższe kroki. W folderze znajduje się także oczekiwany rezultat, który możesz wykorzystać do sprawdzenia poprawności swojego raportu.\nOtwórz nowy plik .pbix i połącz pliki CSV z folderu “Dane sprzedażowe 2005-2007”. W wielu katalogach znajdują się pliki podzielone za każdy kwartał dla danego kraju. Nazwij zapytanie Sales. Zwróć uwagę na typy danych w kolumnach itp.\nPobierz tabele z Excel DimProdukt.\nScal zapytania Sales i DimProdukt po kolumnie “Klucz produktu” i zwróć kolumnę “Nazwa produktu” oraz “Kolor” do zapytania Sales. Użyj scalenia “lewe zewnętrzne”.\nW Power Query utwórz kolumnę “Zysk (Wartość sprzedaży - Koszt)”.\nZaładuj tabelę do Excel lub Power BI i utwórz tabelę przestawną wyliczającą “Zysk dla każdego roku” (wiersze) i “Kolor” (kolumny).\nPobierz dane z pliku xlsx “Dane sprzedażowe 2008” i dołącz je do zapytania Sales, aby rozbudować zapytanie o dane z roku 2008. Pamiętaj o kolejności wykonywanych kroków w Power Query i typach danych.\nZaładuj zmiany i zobacz, czy dane pojawiły się także w tabeli i na wykresie przestawnym.\nPoniżej znajdziesz przykład poprawnych wyników zapytania.\nWażne informacje:\nScalenie należy wykonać na kolumnie z tym samym typem danych.\nPrzed dołączeniem zapytania należy zmienić typy danych (dla bezpieczeństwa dodając nowy krok).\nDołączenie w pierwszej kolejności powinno być wykonane.\nWykonanie raportu powinno zająć Ci nie więcej niż 90 minut.\nPomoc wideo\nOznacz jako wykonane"
+            }
+        ]
+    },
+    {
+        "topic": "WIZUALIZACJA DANYCH W POWER BI DESKTOP, PROJEKTOWANIE MODELU DANYCH ORAZ TWORZENIE INTERAKTYWNEGO RAPORTU – PRACA KOHORTOWA",
+        "description": "Poprzednie tematy wprowadziły Cię w zagadnienia związane z pracą w programie Power BI. Wiesz już jak poruszać się po interfejsie programu, importować dane oraz dokonywać na nich transformacji. W tym temacie poznasz kolejne ważne zagadnienia – projektowanie modelu danych oraz tworzenie interaktywnych wizualizacji.\nW ramach pracy w tym temacie dowiesz się, czym dokładnie jest wizualizacja danych, czyli prezentowanie dużych zbiorów danych w prosty i zrozumiały sposób dla użytkownika końcowego oraz model danych, który jest ważnym elementem w procesie tworzenia raportu, a odpowiednie stworzenie go, może przynieść wiele korzyści.\nW tym temacie zostaną przedstawione informacje odnośnie wszystkich najważniejszych opcji tworzenia modelu danych takie jak kardynalność, kierunki filtrów krzyżowych w modelu danych. Ponadto zapoznasz się także z podstawowymi typami wizualizacji w Power BI Desktop, w szczególności z wykresami. W tym temacie skupisz się także na rozbudowaniu raportu o kolejne funkcjonalności Power BI Desktop takie jak drążenie danych czy zakładki. Po ukończeniu tematu będziesz w stanie tworzyć podstawowe wizualizacje danych w Power BI.\nW tym temacie:\nDowiesz się, czym jest model danych oraz jak się go projektuje,\nNauczysz się tworzyć modele gwiazdy i płatka śniegu,\nPoznasz wszystkie podstawowe typy wizualizacji dostępne w Power BI Desktop,\nDowiesz się jak tworzyć interaktywne raporty w Power BI,\nNauczysz się wdrażać interakcje na raporcie takie jak filtry Drill-through, etykiety czy zakładki.\nZasoby i narzędzia:\nMicrosoft Power BI Desktop\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "Wprowadzenie do wizualizacji danych",
+                "content": "1\nWizualizacja danych w Power BI to proces reprezentowania danych za pomocą interaktywnych i atrakcyjnych wizualnie wykresów, raportów i dashboardów. Umożliwia użytkownikom efektywniejsze eksplorowanie, analizowanie i wyciąganie wniosków z danych.\nObejrzyj film, aby dowiedzieć się, w jaki sposób rozpocząć pracę z tworzeniem atrakcyjnych dashboardów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dostosowanie motywów na raporcie",
+                "content": "2\nMotywy raportu to wbudowane szablony, za pomocą których możesz skonfigurować swoje oczekiwane ustawienia wizualne raportu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób dostosować rozdzielczość kanwy raportu oraz jak ustawić inne przydatne elementy, które zdecydowanie przyspieszą Twoją pracę przy tworzeniu dashboardów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wykresy słupkowe i liniowe",
+                "content": "2\nPower BI Desktop oferuje szereg typów wykresów, które możesz wykorzystać do wizualizacji danych. W tym zadaniu zostaną omówione wykresy słupkowe i liniowe. Wykresy słupkowe i kolumnowe pozwalają zobrazować na raporcie w czytelny sposób dane kategoryczne, pokazując rozkład lub porównanie kategorii danych. Natomiast wykresy liniowe idealnie nadają się do wizualizacji trendów i zmian w czasie przy użyciu ciągłych danych.\nObejrzyj film, aby poznać możliwości tych wykresów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Karty",
+                "content": "2\nKolejnymi typami wizualizacji, które warto poznać są „karta” oraz „karta z wieloma wierszami”. Wizualizacje „karty” to proste, ale zaawansowane narzędzie umożliwiające wyświetlanie kluczowych wskaźników wydajności (KPI) i pojedynczych wartości danych w widocznym miejscu w raporcie. Umożliwia użytkownikom prezentowanie ważnych punktów danych, takich jak: sumy, średnie lub określone wskaźniki, w efektownym wizualnie formacie.\nObejrzyj film, aby poznać możliwości wizualizacji “karty”.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tabele i Macierze",
+                "content": "2\nJednymi z najczęściej używanych wizualizacji są tabele i macierze. Tabele i wizualizacje macierzowe w Power BI to skuteczne narzędzia do prezentowania danych w formacie tabelarycznym, zapewniające użytkownikom uporządkowany widok informacji.\nTabele oferują prostą reprezentację danych, natomiast wizualizacje macierzowe pozwalają na bardziej skomplikowaną kategoryzację i podsumowywanie według wierszy i kolumn.\nObejrzyj film, aby poznać możliwości wykorzystania wizualizacji typu tabela i macierz.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wykresy kołowe i pierścieniowe",
+                "content": "2\nW tym zadaniu poznasz wykresy kołowe i pierścieniowe. Wykresy kołowe służą do reprezentowania danych w formie koła podzielonego na segmenty i kategorie, gdzie rozmiar każdego segmentu odpowiada jego proporcji do całości. Wykresy kołowe przedstawiają dane jako pełne koło, natomiast wykresy pierścieniowe mają niewypełnione miejsce pośrodku, umożliwiające dodanie dodatkowej kategorii lub etykiety.\nObejrzyj film, aby poznać możliwości tych wykresów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Mapy",
+                "content": "2\nPower BI Desktop, wykorzystując usługę Microsoft Bing, umożliwia nam prezentowanie danych geograficznych na mapach i kartogramach. Wizualizacje map w Power BI to zaawansowane narzędzia do wyświetlania danych geograficznych i szczegółowych informacji opartych na lokalizacji, zapewniające wizualną reprezentację danych na interaktywnych mapach. Na mapę możesz nanosić punkty danych, regiony lub ścieżki, co ułatwia wizualizację wzorców przestrzennych, rozmieszczenia i trendów.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wykorzystać wizualizację mapy na raportach.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wykresy warstwowe",
+                "content": "2\nW tym zadaniu poznasz wykresy warstwowe.  to wszechstronne wizualizacje danych, które wyświetlają serie danych w postaci kolorowych obszarów, zwykle ułożonych jeden na drugim, dzięki czemu pokazują skumulowany efekt każdej serii w czasie. Wykresy te skutecznie pokazują trendy, proporcje i zależności w zbiorach danych, ułatwiając sprawdzenie, w jaki sposób poszczególne komponenty wpływają na całość.\nObejrzyj film, aby poznać możliwości tych wykresów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Mierniki",
+                "content": "2\nKolejną wizualizacją wartą uwagi w Power BI Desktop jest miernik. Wykres miernika to wizualizacja zaprojektowana do reprezentowania pojedynczych punktów danych w określonym zakresie, podobnie jak prędkościomierz lub tarcza. Są szczególnie przydatne do ilustrowania wskaźników wydajności, takich jak postęp w realizacji celu lub kluczowych wskaźników wydajności (KPI) w sposób intuicyjny i wizualnie atrakcyjny.\nObejrzyj film, aby poznać możliwości miernika.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Formatowanie warunkowe",
+                "content": "2\nW Power BI Desktop można także wykorzystać wyróżnianie danych za pomocą formatowania warunkowego. Program daje nam do dyspozycji kilka rodzajów formatowań, takich jak: kolor wypełnienia, czcionki oraz pasek danych, czy ikona. Za pomocą formatowania warunkowego można podkreślić krytyczne punkty danych, trendów lub anomalii, co ułatwia wyciąganie wniosków z raportów.\nObejrzyj film, aby dowiedzieć się, w jaki sposób użyć formatowania warunkowego w różnych typach wizualizacji.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Panel filtrów",
+                "content": "2\n w Power BI to kluczowy komponent, który pozwala uszczegóławiać i kontrolować dane wyświetlane w ich raportach za pomocą filtrowania. Zapewnia przyjazny dla użytkownika interfejs do stosowania filtrów do elementów wizualnych, umożliwiając dynamiczną eksplorację danych.\nObejrzyj film, aby dowiedzieć się, jak w praktyczny sposób wykorzystać panel filtrów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Fragmentatory",
+                "content": "2\n w Power BI to interaktywne elementy wizualne, które umożliwiają użytkownikom filtrowanie danych w raporcie i nawigowanie po nich. Zapewniają skuteczny sposób dostosowywania wyświetlanych danych, ułatwiając skupienie się na określonych aspektach lub podzbiorach zbioru danych. Ich właściwe zastosowanie pozwala przefiltrować raport względem określonych danych w sposób przyjazny dla użytkownika.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z fragmentatorów w raporcie.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Projektowanie modelu danych",
+                "content": "1\nProjektując model danych w Power BI Desktop warto zadbać o prawidłowe zastosowanie pewnych elementów, które pozwolą w zaawansowany sposób korzystać z tego modelu oraz języka DAX (który zostanie omówiony w dalszej części kursu).\nDobrze zaprojektowany model danych daje wiele korzyści, takich jak lepsza wydajność raportu oraz ułatwienie zrozumienia przepływu filtrów. Warto więc wiedzieć jak prawidłowo projektować model danych.\nObejrzyj film, aby poznać podstawy projektowania modelu danych oraz zapoznaj się z informacjami na temat budowania modelu danych zawartymi w tym artykule.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Relacje",
+                "content": "2\nJednym z najważniejszych elementów modelu danych są relacje między tabelami, czyli ich logiczne połączenie względem siebie. Odpowiednie zbudowanie relacji jest kluczowe podczas tworzenia modelu danych, aby w późniejszych analizach nasze obliczenia dokonywane na danych były poprawne.\nObejrzyj film, aby dowiedzieć się, w jaki sposób działają relacje, jak w poprawny sposób ustawić kardynalność oraz czym są relacje aktywne i nieaktywne.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dobre praktyki projektowania modelu danych",
+                "content": "2\nPrzepływ filtrów definiuje kierunek, w którym filtry są przekazywane w relacji między tabelami. Jest to ważne dla kontekstu filtrów, który jest budowany podczas tworzenia każdej wizualizacji.\nZobaczmy jak w praktyce działa to w narzędziu. Filtrowanie dwukierunkowe jest przepływem filtrów, który działa w obie strony. Obejrzyj wideo, aby dowiedzieć się jak działa filtrowanie dwukierunkowe i czym się różni od jednokierunkowego przepływu.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Hierarchie",
+                "content": "1\nPower BI Desktop umożliwia nam tworzenie własnych hierarchii.  są grupami kolumn, które odzwierciedlają wiele poziomów szczegółowości.\nObejrzyj film, aby dowiedzieć się jak działają oraz w jaki sposób tworzyć hierarchie.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Projektowania modelu danych – podsumowanie",
+                "content": "1\nPoprzednie zadania pozwoliły Ci poznać zasady modelowania danych w Power BI Desktop. Obejrzyj film, aby poznać dobre praktyki projektowania modelu danych, których zastosowanie sprawi, że stworzony model będzie łatwiejszy w zrozumieniu i późniejszej pracy na nim.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Filtry “drill-through”",
+                "content": "2\nTworząc raport w Power BI Desktop warto zadbać o właściwe zaprezentowanie danych na poszczególnych stronach raportu. Filtry „drill-through” (drąż wskroś) to funkcja umożliwiająca użytkownikom eksplorowanie szczegółowych informacji związanych z określonym punktem danych lub kategorią w raporcie. Klikając prawym przyciskiem myszy lub korzystając z wyznaczonej akcji, użytkownicy mogą przejść do dedykowanych stron „drill-through”, które zapewniają głębszy wgląd i dodatkowy bardziej szczegółowy kontekst danych.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wprowadzić filtry “drill-through” do Twojego raportu Power BI.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wyszczególnianie i uogólnianie",
+                "content": "1\nPrzeglądając raport w zależności od konkretnych potrzeby jego analizy, chcemy, aby dane mogły być wyświetlanie z różną szczegółowością. Do tego zadania świetnie sprawdzi się funkcja „wyszczególniania” i „uogólniania”.  to interaktywne funkcje w usłudze Power BI, które umożliwiają użytkownikom nawigowanie między różnymi poziomami hierarchii danych w wizualizacji lub raporcie. Wyszczególnianie polega na przejściu od podsumowania wyższego poziomu do bardziej szczegółowego widoku, ujawniającego dodatkowe warstwy danych, zaś uogólnienie odwraca ten proces.\nObejrzyj film, aby dowiedzieć się, w jaki sposób wdrożyć i wykorzystać te funkcjonalności w Twoim raporcie.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dobre praktyki tworzenia raportu",
+                "content": "2\nZa nami już większość dostępnych wizualizacji w Power BI Desktop. Czas na podsumowanie zdobytych informacji oraz rozbudowanie wiedzy o bardziej zaawansowane funkcjonalności Power BI Desktop.\nObejrzyj film, aby poznać dobre praktyki projektowania raportu w Power BI Desktop, dzięki którym Twój raport będzie wyglądał profesjonalnie oraz będzie atrakcyjny w odbiorze.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Pierwsze interakcje na raporcie",
+                "content": "4\nZnasz już dobre praktyki budowania raportów w Power BI Desktop, które sprawiają, że raport wygląda profesjonalnie i jest atrakcyjny w odbiorze.\nW tym zadaniu poznasz interakcje na raporcie. Dowiesz się, jak tworzyć dynamiczne tytuły wykresów i dashboardów za pomocą miar w języku DAX. Będą to informacje wprowadzające w kolejny etap kursu, w którym bardziej szczegółowo poznasz DAX oraz bardziej zaawansowane możliwości Power BI Desktop.\nObejrzyj film, aby dowiedzieć się, jak w profesjonalny sposób zbudować dynamiczne tytuły na wykresach i dashboardach w Twoim raporcie.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Edycja interakcji",
+                "content": "1\nEdytowanie interakcji między elementami raportu w usłudze Power BI umożliwia użytkownikom kontrolowanie sposobu, w jaki wizualizacje współdziałają ze sobą podczas wybierania lub filtrowania danych. Ta funkcja pozwala użytkownikom określić, w jaki sposób jedna wizualizacja powinna wpływać na inną, umożliwiając tworzenie w raporcie dostosowanych i precyzyjnych historii opartych na danych poprzez kontrolowanie zachowań filtrowania i wyróżniania pomiędzy wizualizacjami.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z opcji “”.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dodatkowe elementy strony",
+                "content": "1\nProjektując raport w Power BI Desktop, warto zadbać także o przydatne szczegóły, które pozwolą zrozumieć, w jaki sposób działa raport. Dodatki takie jak opisy, strzałki czy tooltipy pomagają w nawigacji po raporcie dzięki czemu jest łatwiejszy w odbiorze.\nObejrzyj film, aby poznać dodatkowe elementy, takie jak pola tekstowe, kształty i przyciski na kanwie strony, które zapewniają możliwość dodawania adnotacji, kontekstu i interaktywności do swoich raportów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Niestandardowe etykiety",
+                "content": "2\n w Power BI umożliwiają użytkownikom wyświetlanie dodatkowego kontekstu i informacji po najechaniu kursorem na punkty danych w wizualizacji. Pozwala to na uczynienie eksploracji danych bardziej interaktywną i przejrzystą. Dzięki możliwości dostosowywania zawartości, formatowania i projektu podpowiedzi, możesz tworzyć podpowiedzi dostosowane do konkretnych potrzeb w zakresie opowiadania historii danych, zapewniając głębszy wgląd w dane bez zaśmiecania raportu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób utworzyć niestandardową etykietę oraz podpiąć ją do wizualizacji w Twoim raporcie.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Zakładki",
+                "content": "2\nPodczas projektowania raportu można wykorzystać zakładki do pokazania lub ukrycia pewnych elementów w raporcie.  umożliwiają przechwytywanie i zapisywanie bieżącego stanu raportu, w tym wyboru, widoczności i układu wizualizacji. Umożliwia to tworzenie interaktywnych prezentacji lub raportów, po których można się swobodnie poruszać. Korzystając z zakładek, można zapewnić użytkownikom raportów uporządkowaną i ukierunkowaną obsługę, ułatwiając im eksplorowanie danych i wniosków bez utraty kontekstu.\nObejrzyj film, aby dowiedzieć się, w jaki sposób korzystać z zakładek w Power BI Desktop.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Parametry",
+                "content": "2\nGdy potrzebujemy zarządzać określonymi danymi w raporcie, np. do różnego typu symulacji w obliczeniach, warto do tego celu wykorzystać parametry.  to zdefiniowane przez użytkownika dane wejściowe, które umożliwiają dynamiczne i interaktywne raportowanie. Pozwalają użytkownikom na dostosowywanie obliczeń, filtrowanie danych i przeprowadzanie analiz scenariuszy własnoręcznie na raporcie bez konieczności zmiany kodu DAX.\nObejrzyj film, aby dowiedzieć się, w jaki sposób utworzyć i wykorzystać parametry liczbowe oraz pola w Power BI Desktop.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Importowanie wizualizacji",
+                "content": "1\nImportowanie niestandardowych wizualizacji do Power BI rozszerza zakres dostępnych opcji wizualizacji danych, umożliwiając dodawanie wizualizacji opracowanych przez innych użytkowników. Jest to przydatne w sytuacji, gdy nasza organizacja posiada spersonalizowane szablony czy elementy, których użycie jest wymagane w raportach. Ta funkcja zwiększa elastyczność i kreatywność w projektowaniu raportów, umożliwiając wybór spośród szerszej gamy typów wykresów, map i innych niestandardowych wizualizacji w celu skutecznego przekazywania spostrzeżeń dotyczących danych.\nObejrzyj film, aby dowiedzieć się, z jakich wizualizacji niestandardowych można i warto skorzystać projektując swój raport w Power BI Desktop.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Najlepsze praktyki wizualizacji danych",
+                "content": "1\nPoprzednie zadania pokazały Ci wiele możliwości tworzenia raportów w Power BI Desktop. Czas na krótkie podsumowanie dobrych praktyk przed kolejną częścią kursu, która poświęcona jest językowi DAX.\nObejrzyj film, aby poznać najlepsze praktyki w zakresie wizualizacji danych w Power BI Desktop. Są to ważne wytyczne i zasady tworzenia informacyjnych, przyjaznych dla użytkownika i skutecznych raportów. Stosowanie tych praktyk sprawi, że Twoje wizualizacje będą jasne, spójne i skuteczne oraz umożliwią użytkownikom uzyskanie cennych spostrzeżeń na podstawie prezentowanych danych.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Quiz – sprawdź swoją wiedzę",
+                "content": "30\nPoprzednie zadania pozwoliły Ci zapoznać się z zagadnieniami dotyczącymi projektowania modelu danych oraz wizualizacji danych podczas tworzenia interaktywnego raportu.\nTeraz czas na sprawdzenie wiedzy – rozwiąż quiz i sprawdź swoją wiedzę.\nUwaga!\nQuiz jednokrotnego wyboru.\nPrzejdź do quizu"
+            }
+        ]
+    },
+    {
+        "topic": "WIZUALIZACJA DANYCH W POWER BI DESKTOP, PROJEKTOWANIE MODELU DANYCH ORAZ TWORZENIE INTERAKTYWNEGO RAPORTU – ZAJĘCIA STACJONARNE",
+        "description": "W tym temacie wykorzystasz w praktyce wiedzę dotyczącą projektowania modelu danych oraz tworzenia interaktywnego raportu w Power BI.\nDodatkowo w tym temacie rozpoczniesz także pracę nad grupowym projektem końcowym, którego efektem będzie stworzenie interaktywnego raportu opowiadającego historię ukrytą w danych.\nW tym temacie:\nWykorzystasz podstawowe typy wizualizacji w praktyce,\nDodasz interaktywne elementy do raportu,\nZaczniesz pracę nad projektem końcowym.\nZasoby i narzędzia:\nMicrosoft Power BI Desktop\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "Wykresy słupkowe i liniowe",
+                "content": "3\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat wykresów słupkowych i liniowych zdobytą w poprzednim temacie. Używając pliku .pbix, który był używany podczas ostatnich zajęć stacjonarnych, wykonaj następujące zadania:\nUtwórz wykres słupkowy przedstawiający miesięczne wartości brutto ze sprzedaży na przestrzeni wszystkich lat. Zastosuj następujące kryteria:\nDostosuj wykres, aby wyświetlał etykiety danych z wartościami przychodów na górze każdego słupka.\nDodaj kategorię danych grupującą kolorystycznie miesiące w kwartały i wyświetli ją pod wykresem.\nUtwórz wykres liniowy w Power BI przedstawiający miesięczne wartości brutto ze sprzedaży na przestrzeni wszystkich lat. Zastosuj następujące kryteria:\nDostosuj wykres, żeby przedstawiał linie z podziałem na kategorie produktu.\nDostosuj wykres, żeby legenda znajdowała się po prawej stronie wykresu.\nDostosuj wykres, żeby znajdowały się na nim znaczniki poszczególnych punktów w czasie o wielkości 10 pikseli.\nDostosuj wykres, żeby pokazywał etykiety wartości z tłem ciemnoszarym.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tabele i Macierze",
+                "content": "3\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat tabel i macierzy zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nUtwórz wizualizację macierzy, która będzie zawierała w wierszach nazwę produktu, w kolumnach rok i miesiąc sprzedaży, a w wartościach miary - liczbę sprzedanych produktów, sumę netto i sumę brutto. Zastosuj do nich następujące kryteria:\nDostosuj obramowanie macierzy tak, aby było pomarańczowe.\nDostosuj macierz, żeby zamiast alternatywnego koloru tła zawierała obramowanie poziome wierszy.\nWyłącz sumy częściowe dla kolumn.\nDostosuj nazwy miar i szerokość kolumn, żeby można było zmieścić więcej informacji bez przewijania.\nUtwórz wizualizację tabeli (minimum 1200 szerokości), która będzie zawierała informacje opisowe dla produktu oraz jego wartość netto i brutto wraz z wartością VAT. Zastosuj do nich następujące zadania:\nDostosuj wizualizację, żeby wartości nagłówków były pogrubione i ich czcionka była większa o 5 punktów.\nDostosuj wizualizację, żeby linia dzieląca była grubsza o 1 punkt i była pomarańczowa.\nDostosuj nazwy kolumn i rozdysponuj przestrzenią tak, żeby tabela zajmowała całość wielkości wizualizacji.\nDostosuj wypełnienie, żeby było o 5 punktów większe i dodaj cień.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wykresy kołowe i pierścieniowe",
+                "content": "3\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat wykresów kołowych i pierścieniowych zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nUtwórz wizualizacje wykresu kołowego, prezentującego Producenta (Manufacturer_Name) i liczbę sprzedaży (SalesQuantity), którą obsłużył. Zastosuj do nich następujące kryteria:\nDostosuj etykiety, żeby wyświetlały wszystkie informacje dostępne wraz z czcionką powiększoną o 3 punkty.\nDostosuj nazwę legend oraz ustawienie, żeby znajdowała się w prawym górnym rogu.\nUtwórz wizualizacje wykresu pierścieniowego, pokazującego Producenta (Manufacturer_Name) i liczbę sprzedaży (SalesQuantity), którą obsłużył. Zastosuj do nich następujące kryteria:\nUstaw promień wewnętrzny na 80%.\nDostosuj wizualizację, żeby pokazywała w etykiecie wszystkie szczegóły.\nDostosuj nazwę legendy oraz ustawienie, żeby znajdowała się w prawym górnym rogu.\nDostosuj wypełnienie wizualizacji do 10 punktów oraz dodaj cień.\nDostosuj nazwę/tytuł wizualizacji.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Mapy",
+                "content": "3\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat wizualizacji map zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nUtwórz wizualizacje mapy, prezentującą miasto klienta z sumą sprzedaży brutto jako wielkość bąbelka. Zastosuj do nich następujące kryteria:\nDostosuj mapę, żeby była w stylu ciemnym z włączonymi przyciskami powiększania/pomniejszania.\nDostosuj kolor bąbelków tak, aby był pomarańczowy i ustaw ich wielkość na zakres danych.\nWłącz etykiety danych i dostosuj kolorystykę tła i czcionki, żeby były dobrze widoczne.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Formatowanie warunkowe",
+                "content": "3\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat formatowania warunkowego zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nUtwórz wizualizację wykresu słupkowego, przedstawiającą wartość brutto sprzedaży w kontekście roku i miesiąca. Zastosuj do nich następujące kryteria:\nUtwórz regułę formatowania warunkowego dla koloru kolumn na podstawie wartości brutto, określającą trzy przedziały: 0-49 (czerwony), 50-79 (żółty), 80-100 (zielony).\nUtwórz wizualizacje tabeli składającej się z nazwy produktu i wartości sprzedaży brutto. Zastosuj do nich następujące kryteria:\nUtwórz regułę formatowania warunkowego dla tła komórki wartości brutto sprzedanych produktów. Minimalna wartość powinna mieć kolor szary, wartość pomiędzy – jasny żółty (ustawiona na 100 tys.), a maksymalna – pomarańczowy.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Fragmentatory",
+                "content": "3\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat fragmentatorów zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nUtwórz tabelę ze szczegółami sprzedaży.\nUtwórz fragmentator z daty i ustaw go na typ relatywnej daty jako suwak.\nUtwórz fragmentator z wymiarów kategorii produktu i nazwy produktu. Ustaw go na wybór wielokrotny bez użycia CTRL oraz jako lista rozwijana.\nUtwórz fragmentator typu produktu (płeć) i ustaw go jako kafelek z wyborem jednokrotnym.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Pierwszy raport",
+                "content": "3\nNadszedł czas na połączenie wszystkich zdobytych dotychczas umiejętności i stworzenie Twojego pierwszego raportu! Twoim zadaniem będzie odtworzenie strony raportu ze screenshota znajdującego się poniżej, używając przykładowego zbioru danych Power BI.\nUwaga! Do wykonania zadania należy stworzyć nowy plik oraz podłączyć się do przykładowej bazy danych w programie Power BI, i skorzystać z Tabeli financials, która jest dostępna w każdym pliku PBI (tak jak na poniższym screenie):\nTwój raport powinien odpowiadać raportowi z poniższego screena:\nZwróć uwagę na szczegóły, takie jak tytuły i kolory na wizualizacjach. W tryb edycji formatu możesz wejść poprzez kilkukrotne kliknięcie pierwszym przyciskiem myszy lub kliknięcie prawym przyciskiem myszy i wybranie z menu kontekstowego opcji “format”.\nDodatkowo, jeśli chcesz, dodaj do raportu także filtr oparty na czasie (kolumna Date) oraz wymiarze (Segment).\nPOWODZENIA!\nPomoc wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Filtry “drill-through”",
+                "content": "4\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat filtrów „drill-through” zdobytą w poprzednim temacie. Używając pliku .pbix, który był wykorzystywany w poprzednich zadaniach (nie plik z zadania „Pierwszy raport”), wykonaj następujące zadania:\nStwórz Drill-through #1:\nStwórz wykres słupkowy, który przedstawia kwotę sprzedaży brutto podzieloną na miesiąc/rok.\nPrzygotuj dodatkową stronę z tabelą ze szczegółowymi danymi sprzedaży wraz z nazwą produktu.\nFunkcja “drill-through” powinna być ustawiona między stroną główną a stroną z tabelą szczegółową.\nStwórz Drill-through #2:\nStwórz stronę główną z dwoma wykresami, wykres kołowy z sumą brutto sprzedaży podzieloną na kategorię produktu oraz wykres słupkowy, który przedstawia sprzedaż brutto podzieloną na miesiąc/rok.\nPrzygotuj dodatkową stronę z tabelą ze szczegółowymi danymi sprzedaży wraz z nazwą produktu.\nFunkcja “drill-through” powinna być ustawiona między stroną główną a stroną z tabelą szczegółową i powinna działać na na obu wykresach.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Niestandardowe etykiety",
+                "content": "4\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat niestandardowych etykiet zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nStwórz wykres kolumnowy prezentujący sumy sprzedaży brutto względem roku i miesiąca sprzedaży,\nStwórz niestandardową etykietę zawierającą wykres pierścieniowy sumy sprzedaży brutto według producenta.\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Zakładki (zadanie dla chętnych)",
+                "content": "4\nW tym zadaniu wykorzystasz w praktyce wiedzę na temat zakładek zdobytą w poprzednim temacie. Używając pliku .pbix, na którym pracowaliśmy do tej pory, wykonaj następujące zadania:\nUtwórz zbiór zakładek i przypisz go do przycisków, które będą miały za zadanie kontrolę widoczności dwóch wykresów:\nPrzycisk #1 – Ilość sprzedanych produktów podzielona na kategorię produktu (wykres pierścieniowy),\nPrzycisk #2 – Suma sprzedaży brutto podzielona na województwo klienta (wykres lejkowy).\nZapisz zmiany dokonane w pliku – wykorzystasz go w następnych zadaniach.\nOznacz jako wykonane"
+            },
+            {
+                "title": "Projekt końcowy – założenia projektu",
+                "content": "2\nW tym zadaniu poznasz wymagania do projektu zaliczeniowego. Przeczytaj poniższe informacje i wymagania dotyczące raportu, których znajomość przyda Ci się podczas pracy. Projekt opracujcie w grupach maksymalnie 4 osobowych.\nBazową wersję projektu zaczniemy tworzyć w kolejnych zadaniach – zadania te pozwolą wam na zbudowanie kluczowych funkcjonalności raportu.\nWymagania raportu:\nRaport powinien być wykonany zgodnie z koncepcją storytellingu, czyli omawiać pewną historię kryjącą się za danymi i przechodzić od przedstawienia problemu do jego omówienia lub rozwiązania,\nRaport powinien prezentować dane w czytelny sposób, wykorzystując odpowiednie typy wizualizacji do omawianych danych,\nRaport powinien być przygotowany we właściwej formie i zgodnie z ogólnymi zasadami wizualizacji danych (warto zastosować standard IBCS),\nW raporcie powinny być zastosowane we właściwy sposób funkcjonalności narzędzi poznane w kursie,\nRaport powinien być interaktywny tak, aby nietechniczny odbiorca mógł korzystać z niego w sposób intuicyjny.\nPamiętaj, aby dane przedstawiać na odpowiednich typach wykresów, stosując dobre praktyki standaryzacji prezentowania danych, jak np. odpowiedni layout raportu, motywy kolorystyczne, logicznie użyte sekcje na raporcie.\nTworząc raport, warto wykorzystać:\nDrążenia danych,\nBookmarks,\nNiestandardowe etykiety i wizualizacje,\nParametry,\nDynamiczne obiekty na raporcie,\nNawigację i przyciski.\nWarunki zaliczenia przedmiotu:\nUtworzenie raportu w Power BI według powyższych wymagań. Raport należy umieścić na platformie CyberSkiller w drugim zadaniu ostatniego tematu – zadanie „Projekt końcowy – prześlij raport”,\nPrezentacja raportu i wniosków z danych w formie maksymalnie 10 minutowego nagrania. Gotowe nagranie należy umieścić na platformie w ostatnim zadaniu ostatniego tematu – zadanie „Projekt końcowy – prześlij wideo”.\nObejrzyj film, aby przypomnieć sobie dobre praktyki tworzenia raportu oraz wybranie odpowiednich typów wykresów do danych.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Projekt końcowy – model danych",
+                "content": "1\nW tym zadaniu rozpoczynamy pracę nad projektem zaliczeniowym. Pracę zaczniemy od zbudowania modelu danych, na których będziecie pracować i tworzyć poszczególne wizualizacje.\nPewnie wiecie już, jak działają relacje w widoku modelu Power BI. Waszym zadaniem będzie połączyć się do bazy danych i wykonać pierwsze zadanie projektu.\nLoginy i hasła do bazy danych:\nHost databese: database-1.c4xebry0uvcl.eu-west-1.rds.amazonaws.com:1433\nBaza danych : Sales\nLogin: powerbi\nHasło: BM9JDy7TKq\nJeśli potrzebujecie pomocy przy połączeniu, zajrzyjcie do instrukcji połączenia z bazą danych\nZadanie do wykonania:\nStwórzcie nowy plik .pbix, w którym będziecie wykonywać wasz projekt. Pamiętajcie, żeby na końcu zajęć zapisać plik i wrzucić go do miejsca, w którym każdy z waszej grupy będzie miał do niego łatwy dostęp. Dobrym pomysłem będzie stworzenie folderu na One Drive lub zespołu na Teams i umieszczenie tam pliku.\nPo utworzeniu nowego pliku pobierzcie z bazy danych w trybie import następujące 7 tabel:\nFactInternetSales,\nDimKategoria,\nDimPodkategoria,\nDimProdukt,\nDimKlient,\nDimObszrSprzedazy,\nDimGeografia.\nPamiętajcie, żeby skupić się na ich właściwym przygotowaniu w Power Query. Następnie załadujcie dane do Power BI i zaprojektujcie model danych. Pamiętajcie, żeby skupić się na kolumnach, kluczach i kardynalności oraz odpowiednim kierunku filtrów krzyżowych.\nZapoznajcie się także z danymi w tabelach, aby w kolejnych zadaniach świadomie wykonywać analizy na danych. Dobrym pomysłem będzie wykonać kilka wizualizacji na danych w celu zapoznania się z danymi oraz powtórzenia wiadomości z tego tematu.\nZapiszcie zmiany w pliku i zachowajcie go do dalszych zadań.\nJeśli potrzebujecie pomocy z wykonaniem zadania, zapoznajcie się z poniższym filmem.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Projekt końcowy – layout i nawigacja w raporcie",
+                "content": "2\nPo zaimportowaniu i przygotowaniu danych czas zacząć pracę nad budowaniem raportu. W tym zadaniu zaczniecie rozbudowywanie raportu od wdrożenia nawigacji po stronach raportu.\nZacznijcie pracę od zastanowienia się nad layoutem waszego raportu oraz elementami, które mają znaleźć się w raporcie takimi jak ikony, przyciski itp. Pomyślcie, jak powinien wyglądać wasz raport i stwórzcie wstępny design – nie musi to być wersja ostateczna, w przyszłości będziecie mogli wprowadzić zmiany, gdy stwierdzicie, że są potrzebne.\nJeśli będziecie potrzebowali inspiracji, możecie zobaczyć przykładowy layout zaprezentowany w filmie z pomocą wideo.\nPomoc wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Projekt końcowy – panel z filtrami",
+                "content": "4\nKontynuujemy pracę nad rozbudowywaniem waszego raportu. W tym kroku dodacie do raportu panel z filtrami.\nPrzed stworzeniem panelu zastanówcie się, jak ma wyglądać, jakie filtry ma obejmować, czy ma on być zawsze widoczny dla użytkownika, lub czy ma się ukrywać za pomocą zakładek. Opracujcie założenia dla panelu i następnie dodajcie go do raportu.\nJeśli będziecie potrzebowali inspiracji, możecie zobaczyć przykładowy panel filtrów zaprezentowany w filmie z pomocą wideo.\nPomoc wideo\nOznacz jako wykonane"
+            }
+        ]
+    },
+    {
+        "topic": "DATA ANALYSIS EXPRESSIONS (DAX) I ROZBUDOWA RAPORTU – PRACA KOHORTOWA",
+        "description": "Wiesz już jak projektować model danych oraz budować interaktywne raporty w Power BI. W tym temacie rozbudujesz swoją wiedzę o kolejne, istotne zagadnienie związane z pracą w Power BI – język programowania DAX.\nJęzyk programowania DAX (Data Analysis Expressions) jest używany do tworzenia kolumn obliczeniowych, miar i tabel niestandardowych. Jest to kolekcja funkcji, operatorów i stałych, których można użyć w formule lub wyrażeniu, aby obliczyć i zwrócić jedną lub więcej wartości. Za pomocą języka DAX można wykonywać wiele obliczeń oraz rozwiązywać problemy dotyczące analizy danych, co może ułatwić tworzenie nowych informacji na podstawie danych, które istnieją już w modelu.\nW tym temacie dowiesz się, w jaki sposób świadomie korzystać z kodu DAX oraz poznasz dobre praktyki jego wykorzystania. Zrozumiesz także koncepcję języka oraz dowiesz się jak używać funkcji Calculate, aby dokonywać zaawansowanych obliczeń w modelu danych. Poznasz także pozostałe funkcje języka DAX. Na koniec skupisz się na rozbudowaniu i wykorzystaniu w praktyce możliwości Power BI do utworzenia interaktywnego raportu.\nW tym temacie:\nPoznasz język DAX, jego składnię i podstawowe wyrażenia,\nDowiesz się, czym są konteksty wykonania w DAX,\nNauczysz się wykorzystywać funkcje takie logiczne, statystyczne, iteracyjne czy daty i czasu do dokonywania zaawansowanych obliczeń na danych,\nPoznasz praktyczne zastosowania funkcji Calculate oraz Time Intelligence,\nRozbudujesz swój raport o interaktywne elementy.\nZasoby i narzędzia:\nMicrosoft Power BI Desktop\nMSSQL",
+        "resources": [],
+        "exercises": [
+            {
+                "title": "DAX - wprowadzenie",
+                "content": "1\nDAX, czyli Data Analysis Expressions, to zaawansowany język formuł używany m.in. w Power BI Desktop czy Power Pivot w MS Excel do tworzenia niestandardowych obliczeń i agregacji w modelach danych. Za jego pomocą możesz stworzyć zaawansowane biznesowe obliczenia, które następnie w atrakcyjny sposób będziesz w stanie wizualizować w Power BI Desktop.\nObejrzyj film, aby przypomnieć sobie dobre zasady projektowania relacyjnego modelu danych, aby w prawidłowy sposób korzystać z języka DAX.\nUwaga! Jeżeli potrzebujesz powtórzenia wiedzy z relacji, kardynalności i kierunków filtrów krzyżowych obejrzyj ponownie film w zdaniu “Projektowanie modelu danych” w temacie “Wizualizacja danych w Power BI Desktop, projektowanie modelu danych oraz tworzenie interaktywnego raportu – praca kohortowa”.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Dobre praktyki pisania kodu",
+                "content": "1\nPraca z edytorem DAX to przede wszystkim pisanie kodu – podobnie jak podczas pracy z językiem SQL. Aby usprawnić pracę i zagwarantować, że nasz projekt będzie poprawny warto znać dobre praktyki pisania kodu – w tym zadaniu zapoznasz się z najważniejszymi praktykami języka DAX.\nObejrzyj film, aby dowiedzieć się, jak pisać kod w poprawnie sformatowany sposób, używać komentarzy oraz nazywać obiekty w DAX. Zapoznaj się też z informacjami na temat formatowania kodu dostępnymi na tej stronie internetowej.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Konteksty wykonania",
+                "content": "2\nAby świadomie korzystać z języka DAX, należy rozumieć konteksty, w jakich pracujemy. Kontekst wykonania to kontekst, w którym wyrażenie DAX jest obliczane czy wykonywane.\nZrozumienie kontekstów wykonania obliczeń w DAX jest bardzo ważną koncepcją, ponieważ ich zrozumienie pozwala na tworzenie bardziej złożonych zestawień i raportów w Power BI Desktop.  stanowią podstawę wszystkich zaawansowanych funkcjonalności DAX, dlatego warto je znać.\nObejrzyj film, aby zrozumieć, czym jest kontekst wiersza oraz kontekst filtra. Dowiesz się także, kiedy te konteksty są wykorzystywane.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Kolumna kalkulowana",
+                "content": "2\nKolumny kalkulowane w Power BI Desktop to kolumny zdefiniowane przez użytkownika, utworzone przy użyciu formuł wyrażeń analizy danych (czyli DAX). Udoskonalają modele danych, umożliwiając niestandardowe obliczenia i transformacje.\nObejrzyj film, aby dowiedzieć się, w jaki sposób stworzyć kolumny, ale także zastanowić się, czy zawsze są one niezbędne.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Miara",
+                "content": "2\nMiary w Power BI Desktop to dynamiczne obliczenia tworzone przy użyciu formuł języka DAX. Miary to najbardziej zaawansowany i skomplikowany rodzaj obliczeń, ale dający nieograniczone możliwości analityczne dlatego warto wiedzieć jak ich używać.\nObejrzyj film, aby dowiedzieć się, jak w prawidłowy sposób tworzyć miary w modelu danych.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Szybka miara",
+                "content": "2\nSzybkie miary to przyjazna dla użytkownika funkcja, która upraszcza tworzenie typowych obliczeń i agregacji dzięki oferowaniu gotowych szablonów i interaktywnego interfejsu. To oszczędzające czas narzędzie umożliwia szybkie generowanie spostrzeżeń w raportach, bez konieczności posiadania zaawansowanej wiedzy na temat języka DAX. Zastosowanie szybkich miar usprawnia pracę oraz zwiększa efektywność opracowywania raportów i analiz, dlatego warto wykorzystywać je w swoich raportach.\nObejrzyj film, aby dowiedzieć się, jak w prawidłowy sposób używać szybkich miar.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tabela miar i porządkowanie modelu",
+                "content": "2\nPorządek w danych jest niezwykle istotny, gdyż usprawnia pracę nad raportem oraz minimalizuje ryzyko wystąpienia błędu nieprawidłowej wizualizacji danych. Podczas tworzenia nowych obliczeń w Power BI Desktop warto więc zadbać o przypisanie ich do konkretnych tabel i folderów w celu łatwiejszego zrozumienia raportu (szczególnie wtedy, gdy obliczeń jest bardzo dużo).\nObejrzyj film, aby dowiedzieć się, w jaki sposób stworzyć dedykowaną tabelę do miar za pomocą wyrażenia DAX oraz jak przypisać miary do odpowiednich folderów i podfolderów.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Funkcje matematyczne i statystyczne",
+                "content": "2\nFunkcje matematyczne w języku DAX umożliwiają wykonywanie podstawowych obliczeń, takich jak: sumowanie, wyznaczanie średniej, minimum i maksimum, zaokrąglanie i wyznaczanie wartości bezwzględnych. Funkcje te dostarczają podstawowych narzędzi do wykonywania operacji arytmetycznych i upraszczają analizę danych.\nFunkcje statystyczne umożliwiają bardziej zaawansowane analizy takie jak obliczanie odchylenia standardowego, wariancji, rankingu czy korelacji.\nFunkcjami, które będziemy omawiać w tym zagadnieniu, są: SUM, AVERAGE, MIN, MAX, COUNT, COUNTROWS, DISTINCTCOUNT, DIVIDE, ROUND.\nObejrzyj film, aby zapoznać się z funkcjami matematycznymi i statystycznymi i poznać ich zastosowania.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Funkcje iteracyjne",
+                "content": "2\nKolejnym ważnym elementem języka DAX są funkcje iteracyjne, czyli funkcje wykonujące obliczenia wiersz po wierszu wybranej tabeli.  są niezbędne do tworzenia niestandardowych agregacji, złożonych obliczeń i bardziej rozbudowanych analiz. Zapewniają elastyczność umożliwiającą przeprowadzanie personalizowanych analiz, dostosowywanie się do zmieniających się wymagań i uzyskiwanie informacji, których standardowe funkcje agregacji mogą nie uwzględniać.\nFunkcjami, które będziemy omawiać w tym zagadnieniu, są: SUMX, AVERAGEX, COUNTX oraz FILTER.\nObejrzyj film, aby zapoznać się z funkcjami iteracyjnymi i przykładami ich zastosowania.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Funkcje logiczne",
+                "content": "2\nJednymi z najczęściej wykorzystywanych funkcji do wykonywania analiz są funkcje logiczne. Znajdują zastosowanie, gdy w obliczeniach potrzebujemy użyć instrukcji warunkowych. Zapewniają środki do implementowania logiki oraz pisania instrukcji warunkowych, procesów decyzyjnych i zaawansowanej kategoryzacji danych w raportach i modelach danych.\nFunkcjami, które będziemy omawiać w tym zagadnieniu, są: IF, AND, OR, NOT, SWITCH, TRUE, FALSE oraz operatory logiczne || i &&.\nObejrzyj film, aby zapoznać się z funkcjami logicznymi i warunkowymi i ich możliwościami.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Funkcja CALCULATE",
+                "content": "2\n w DAX to dynamiczna funkcja, niezbędna do kontrolowania kontekstu filtra obliczeń danych. Umożliwia tworzenie niestandardowych miar, modyfikowanie warunków filtrów i przeprowadzanie złożonych analiz, oferując precyzyjną kontrolę nad tym, które dane zostaną uwzględnione w obliczeniach.\nObejrzyj film, aby dowiedzieć się, jak we właściwy sposób używać tej funkcji, co i kiedy jest ważniejsze w raporcie oraz poznać praktyczne możliwości jej wykorzystania.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Funkcja Calculate w praktyce",
+                "content": "2\nZnasz już podstawy działania funkcji CALCULATE. W tym zadaniu rozwiniesz swoją wiedzę o praktyczne zastosowanie tej funkcji – zobaczysz, jak w praktyce wykorzystać funkcję CALCULATE do utworzenia kilku zaawansowanych miar.\nObejrzyj film, aby poznać praktyczne zastosowania funkcji CALCULATE w DAX.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Tabela kalendarza oraz funkcje daty i czasu",
+                "content": "3\nUnikatowa tabela kalendarza jest niezbędna w każdym modelu danych – pozwala we właściwy sposób korzystać z analizy czasowej oraz filtrować wiele tabel faktów względem czasu.\nFunkcje daty i czasu umożliwiają różne operacje, w tym wyodrębnienie składników daty, wykonywanie obliczeń opartych na czasie i tworzenie niestandardowych tabel dat na potrzeby dogłębnej analizy i raportowania.\nFunkcjami, które będziemy omawiać w tym zagadnieniu, są: YEAR, MONTH, DAY, WEEKDAY, WEEKNUM, DATE, TODAY, NOW.\nObejrzyj film, aby dowiedzieć się, jak stworzyć profesjonalną tabelę kalendarza za pomocą zmiennych oraz rozbudować ją korzystając z funkcji daty.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Wstęp do funkcji Time Intelligence",
+                "content": "3\nFunkcje analizy czasowej (Time Intelligence) w Power BI DAX oferują kompleksowy zestaw narzędzi do zaawansowanej analizy danych opartych na czasie oraz raportowania zawierającego wizualizację danych czasowych.\nFunkcje te umożliwiają użytkownikom wykonywanie skomplikowanych obliczeń opartych na czasie, dostosowywanie raportów do różnych okresów i uzyskanie cennych informacji na temat czasowych aspektów danych. Za ich pomocą można budować zaawansowane analizy porównawcze, np. dynamiki wzrostów/spadków analogicznych okresów czy różnego rodzaju wskaźników KPI.\nFunkcjami, które będziemy omawiać w tym zagadnieniu, są: SAMEPERIODLASTYEAR, PREVIOUSMONTH, PARALLELPERIOD.\nObejrzyj film, aby dowiedzieć się, jak w poprawny sposób wykorzystać funkcje Time Intelligence w DAX.\nOdtwórz wideo\nOznacz jako wykonane"
+            },
+            {
+                "title": "Quiz – sprawdź swoją wiedzę",
+                "content": "30\nPoprzednie zadania pozwoliły Ci zapoznać się z językiem DAX. Teraz czas na sprawdzenie wiedzy – rozwiąż quiz i sprawdź swoją wiedzę.\nUwaga!\nQuiz jednokrotnego wyboru.\nPrzejdź do quizu"
+            }
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+// ============================================
+// TABELA KALENDARZA
+// ============================================
+// WAŻNE: Utwórz jako NOWĄ TABELĘ (nie miara!)
+// Modelowanie → Nowa tabela → wklej cały kod
+// ============================================
+
+DimData =
+ADDCOLUMNS(
+    CALENDAR(DATE(2005, 1, 1), DATE(2008, 12, 31)),
+    "Rok", YEAR([Date]),
+    "Miesiąc", MONTH([Date]),
+    "Nazwa Miesiąca", FORMAT([Date], "MMMM"),
+    "Miesiąc Krótki", FORMAT([Date], "MMM"),
+    "Kwartał", "Q" & QUARTER([Date]),
+    "Nr Kwartału", QUARTER([Date]),
+    "Rok-Miesiąc", FORMAT([Date], "YYYY-MM"),
+    "Rok-Kwartał", YEAR([Date]) & "-Q" & QUARTER([Date]),
+    "Dzień Tygodnia", WEEKDAY([Date], 2),
+    "Nazwa Dnia", FORMAT([Date], "dddd"),
+    "Nr Tygodnia", WEEKNUM([Date], 2),
+    "Dzień Miesiąca", DAY([Date]),
+    "Jest Weekend", IF(WEEKDAY([Date], 2) > 5, "Tak", "Nie")
+)
+
+
+// ============================================
+// PO UTWORZENIU TABELI:
+// ============================================
+// 1. Przejdź do widoku Model
+// 2. Utwórz relację:
+//    DimData[Date] → FactInternetSales[Data zamówienia]
+// 3. Kardynalność: Wiele do jednego (*:1)
+// 4. Kierunek: Pojedynczy
+// ============================================
+
+
+// ============================================
+// ALTERNATYWNA WERSJA (jeśli powyższa nie działa)
+// ============================================
+// Jeśli FORMAT nie działa poprawnie z polskimi nazwami,
+// użyj tej wersji z angielskimi nazwami:
+
+/*
+DimData_EN =
+ADDCOLUMNS(
+    CALENDAR(DATE(2005, 1, 1), DATE(2008, 12, 31)),
+    "Year", YEAR([Date]),
+    "Month", MONTH([Date]),
+    "Month Name", FORMAT([Date], "MMMM"),
+    "Quarter", "Q" & QUARTER([Date]),
+    "Year-Month", FORMAT([Date], "YYYY-MM"),
+    "Year-Quarter", YEAR([Date]) & "-Q" & QUARTER([Date]),
+    "Weekday", WEEKDAY([Date], 2),
+    "Day Name", FORMAT([Date], "dddd")
+)
+*/

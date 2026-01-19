@@ -1,0 +1,79 @@
+// ============================================
+// MIARY DYNAMICZNE
+// ============================================
+// Dla dynamicznych tytułów, ikon i treści
+// ============================================
+
+
+// --- DYNAMICZNY TYTUŁ STRONY ---
+Tytuł Strony =
+"Sprzedaż: " &
+IF(
+    ISFILTERED(DimData[Rok]),
+    SELECTEDVALUE(DimData[Rok], "Wiele lat"),
+    "2005-2008"
+) &
+IF(
+    ISFILTERED(DimKategoria[Nazwa Kategorii]),
+    " | " & SELECTEDVALUE(DimKategoria[Nazwa Kategorii]),
+    ""
+)
+
+
+// --- KPI IKONA TREND ---
+KPI Ikona Trend =
+VAR Trend = [Dynamika YoY]
+RETURN
+IF(ISBLANK(Trend), "●",
+IF(Trend > 0.05, "▲",
+IF(Trend < -0.05, "▼",
+"●")))
+
+
+// --- KPI PEŁNY TEKST Z IKONĄ ---
+KPI Trend Pełny =
+VAR Trend = [Dynamika YoY]
+VAR Ikona = [KPI Ikona Trend]
+VAR Procent = FORMAT(ABS(Trend), "0.0%")
+RETURN
+IF(ISBLANK(Trend), "-",
+Ikona & " " & IF(Trend > 0, "+", "-") & Procent)
+
+
+// --- KOLOR WARUNKOWY (do użycia w formatowaniu) ---
+Kolor Trend =
+VAR Trend = [Dynamika YoY]
+RETURN
+IF(ISBLANK(Trend), "#808080",
+IF(Trend > 0.05, "#2E7D32",
+IF(Trend < -0.05, "#C62828",
+"#808080")))
+
+
+// --- AKTYWNE FILTRY (do debugowania) ---
+Aktywne Filtry =
+VAR RokFiltr = IF(ISFILTERED(DimData[Rok]), "Rok: " & SELECTEDVALUE(DimData[Rok], "wiele") & " | ", "")
+VAR KatFiltr = IF(ISFILTERED(DimKategoria[Nazwa Kategorii]), "Kategoria: " & SELECTEDVALUE(DimKategoria[Nazwa Kategorii], "wiele") & " | ", "")
+VAR KrajFiltr = IF(ISFILTERED(DimObszarSprzedazy[Kraj]), "Kraj: " & SELECTEDVALUE(DimObszarSprzedazy[Kraj], "wiele"), "")
+RETURN
+IF(RokFiltr & KatFiltr & KrajFiltr = "", "Brak filtrów", RokFiltr & KatFiltr & KrajFiltr)
+
+
+// --- OPIS WYBRANEGO PRODUKTU ---
+Opis Produktu =
+VAR Produkt = SELECTEDVALUE(DimProdukt[Nazwa produktu], "Wybierz produkt")
+VAR Kategoria = SELECTEDVALUE(DimKategoria[Nazwa Kategorii], "")
+VAR Kolor = SELECTEDVALUE(DimProdukt[Kolor], "")
+RETURN
+Produkt &
+IF(Kategoria <> "", " | " & Kategoria, "") &
+IF(Kolor <> "", " | " & Kolor, "")
+
+
+// --- FORMATOWANIE SPRZEDAŻY (skrócone) ---
+Sprzedaż Skrócona =
+VAR Wartosc = [Sprzedaż]
+RETURN
+IF(Wartosc >= 1000000, FORMAT(Wartosc / 1000000, "0.0") & "M",
+IF(Wartosc >= 1000, FORMAT(Wartosc / 1000, "0.0") & "K",
+FORMAT(Wartosc, "0")))
